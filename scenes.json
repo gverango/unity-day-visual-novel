@@ -1,0 +1,17 @@
+
+{
+    "start": {
+      "background": "assets/backgrounds/ram_plaza.jpg",
+      "dialogue": [
+        { "character": "MC", "text": "The plaza is brimming with energy. It's Unity Day, the campus club fair." },
+        { "character": "MC", "text": "I'm here to find a club to join, but I'm not sure where to start..."}
+      ],
+      "choices": [
+        { "text": "Interested in the CS club/Anime/Engineering Club", "nextScene": "CS Club" },
+        { "text": "Interested in Student Council", "nextScene": "ASCO Tent" },
+        { "text": "Interested in food", "nextScene": "Food truck" },
+        { "text": "Not Interested/ Done looking", "nextScene": "Accidental Encounter" }
+      ]
+    }
+  }
+  

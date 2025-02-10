@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Novel</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Title Page -->
+        <div id="title-button">Press any key to start</div>
+
+        <!-- Game Menu: hidden initially -->
+        <div class="menu-buttons">
+            <button id="continue-button">Continue</button>
+            <button id="load-button">Load</button>
+            <button id="gallery-button">Gallery</button>
+            <button id="exit-button">Exit</button>
+        </div>
+
+        <!-- Settings Button -->
+        <div class="settings-icon">⚙️</div>
+        <!-- Settings Panel -->
+        <div class="settings-panel">
+            <div class="tabs">
+                <button class="tab-button active" data-tab="menu">Menu</button>
+                <button class="tab-button" data-tab="controls">Controls</button>
+                <button class="tab-button" data-tab="settings">Settings</button>
+            </div>
+            <div class="tab-content" id="menu">This is the Menu content.</div>
+            <div class="tab-content" id="controls" style="display: none;">
+                <p>next → ENTER</p>
+                <p>forward → ARROWS</p>
+                <p>go back → SHIFT</p>
+                <p>settings → ESC</p>
+            </div>
+            <div class="tab-content" id="settings" style="display: none;">This is the Settings content.</div>
+            <button class="close-button">Close</button>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
