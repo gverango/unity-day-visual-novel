@@ -13,10 +13,10 @@
 
         <!-- Game Menu: hidden initially -->
         <div class="menu-buttons">
-            <button id="continue-button">Continue</button>
-            <button id="load-button">Load</button>
-            <button id="gallery-button">Gallery</button>
-            <button id="exit-button">Exit</button>
+            <button class="continue-button">Continue</button>
+            <button class="load-button">Load</button>
+            <button class="gallery-button">Gallery</button>
+            <button class="exit-button">Exit</button>
         </div>
 
         <!-- Settings Button -->
@@ -28,7 +28,12 @@
                 <button class="tab-button" data-tab="controls">Controls</button>
                 <button class="tab-button" data-tab="settings">Settings</button>
             </div>
-            <div class="tab-content" id="menu">This is the Menu content.</div>
+            <div class="tab-content" id="menu">
+                <button class="save-button">Save</button>
+                <button class="load-button">Load</button>
+                <button class="gallery-button">Gallery</button>
+                <button class="exit-button">Exit</button>
+            </div>
             <div class="tab-content" id="controls" style="display: none;">
                 <p>next → ENTER</p>
                 <p>forward → ARROWS</p>

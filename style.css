@@ -49,8 +49,10 @@ body, html {
     justify-content: space-between;
 }
 
-.menu-buttons 
-#continue-button, #load-button, #gallery-button, #exit-button
+.menu-buttons .continue-button, 
+.menu-buttons .load-button, 
+.menu-buttons .gallery-button, 
+.menu-buttons .exit-button
 
 {
     background-color: #151515;
@@ -65,8 +67,10 @@ body, html {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
 }
 
-.menu-buttons 
-#continue-button:hover, #load-button:hover, #gallery-button:hover, #exit-button:hover {
+.menu-buttons .continue-button:hover,
+.menu-buttons .load-button:hover,
+.menu-buttons .gallery-button:hover,
+.menu-buttons .exit-button:hover {
     background-color: #333;
 }
 
@@ -79,4 +83,46 @@ body, html {
     cursor: pointer;
 }
 
+.settings-panel {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    padding: 20px;
+    background-color: #d3d3d3;
+    border: 2px solid black;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    box-sizing: border-box;
+}
 
+.tab-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the buttons horizontally */
+    gap: 15px; /* Adds spacing between buttons */
+    padding: 20px;
+}
+
+.tab-content .save-button,
+.tab-content .load-button,
+.tab-content .gallery-button,
+.tab-content .exit-button {
+    width: 80%; /* Full width to match the design */
+    color: BLACK;
+    background-color: WHITE;
+    font-size: 2vw;
+    padding: 5px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tab-content .save-button:hover,
+.tab-content .load-button:hover,
+.tab-content .gallery-button:hover,
+.tab-content .exit-button:hover {
+    color: #909090
+}

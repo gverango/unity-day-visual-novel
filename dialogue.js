@@ -2,5 +2,10 @@
 // Horizontal text scrolling animation
 
 
-//Forward dialogue
+// Forward dialogue
 
+
+// Backward dialogue
+
+
+// SFX

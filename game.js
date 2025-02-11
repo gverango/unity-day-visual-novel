@@ -8,8 +8,8 @@ window.onload = () => {
 };
 
 const titleButton = document.getElementById('title-button');
-const continueButton = document.getElementById('continue-button');
-const exitButton = document.getElementById('exit-button');
+const continueButton = document.querySelector('.continue-button');
+const exitButton = document.querySelector('.exit-button');
 const menuButtons = document.querySelector('.menu-buttons');
 const settingsIcon = document.querySelector('.settings-icon');
 const settingsPanel = document.querySelector('.settings-panel');
@@ -37,16 +37,17 @@ continueButton.addEventListener('click', () => {
     settingsIcon.style.display = 'block'; //Show the settings icon
 });
 
+
 // Open Settings Panel
 settingsIcon.addEventListener('click', () => {
     settingsPanel.style.display = 'block';
 
 });
-
 // Close Settings Panel
 closeButton.addEventListener('click', () => {
     settingsPanel.style.display = 'none';
 });
+
 
 // Tab switching logic
 document.querySelectorAll('.tab-button').forEach(button => {
