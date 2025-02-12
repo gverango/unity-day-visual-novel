@@ -90,6 +90,7 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
+    height:50%;
     padding: 20px;
     background-color: #d3d3d3;
     border: 2px solid black;
@@ -98,23 +99,45 @@ body, html {
     box-sizing: border-box;
 }
 
+.settings-panel .close-button {
+    position: absolute;
+    bottom: 10px;
+}
+
+.settings-panel .tabs .tab-button{
+    position: relative;
+    border: none;
+    align-items: space-between;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #151515;
+    font-size: 1.8vw;
+    color: white;
+    padding: 5px;
+    width: 32%;
+    height: 20%;
+    justify-content: center;
+}
+
+
 .tab-content {
-    display: flex;
     flex-direction: column;
-    align-items: center; /* Center the buttons horizontally */
-    gap: 15px; /* Adds spacing between buttons */
-    padding: 20px;
+    position:relative;
+    justify-content: space-around;
+    padding: 10px;
+    min-height: 50%;
+    max-height: 50%;
 }
 
 .tab-content .save-button,
 .tab-content .load-button,
 .tab-content .gallery-button,
 .tab-content .exit-button {
-    width: 80%; /* Full width to match the design */
+    display:flex;
+    width: 80%;
     color: BLACK;
-    background-color: WHITE;
+    background-color: #d3d3d3;
     font-size: 2vw;
-    padding: 5px;
+    padding: 2px;
     border: none;
     text-align: center;
     cursor: pointer;
