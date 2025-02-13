@@ -149,3 +149,12 @@ body, html {
 .tab-content .exit-button:hover {
     color: #909090
 }
+
+.text-container {
+    font-size: 2rem;
+    width: 80%;
+    padding: 2rem;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-top: 100px;
+}
