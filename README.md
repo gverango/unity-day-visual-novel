@@ -4,5 +4,6 @@ Visual Novel game in JavaScript
 
 Contributors (add your name here)
 
-Gevilee Mariane Verango
+Gevilee Mariane Verango,
+
 Jacky Choi
