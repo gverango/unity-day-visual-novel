@@ -25,3 +25,16 @@ Open in Local host
 Please name it as
 ```Contributed Feature : Clear and concise description ```
 
+# Directory
+```
+📁 Project Root
+├─ 📄 index.html        // Game structure + elements
+├─ 🎨 style.css         // Styling
+├─ 📜 scenes.json       // Story content as JSON Data
+├─ 📂 assets            // Backgrounds, characters
+│  ├─ backgrounds
+│  └─ characters
+├─ 📄 model.js          // Game state and data Objects
+├─ 📄 view.js           // UI rendering
+└─ 📄 controller.js     // Game logic
+```
