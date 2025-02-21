@@ -7,20 +7,67 @@ body, html {
     align-items: center;
     background-color: black;
 }
-
 .container {
-    width: 80vw;
-    min-width: 80vw;
-    height: 40vw;
-    min-height: 40vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80vh;
+    aspect-ratio: 16 / 9;
     background-color: #d3d3d3;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
     display: flex;
-    position: relative;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 12px;
-    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
 }
+
+/* Background Styling */
+.container {
+    background-color: #d3d3d3; /* Default color as container */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease; /* ANIMATION: need help*/
+}
+
+/* Character Sprite */
+.character-sprite {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 60%;
+    max-height: 400px;
+    z-index: 10;
+     /* ANIMATION: need help*/
+}
+
+/* Text Container */
+.text-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+}
+
+/* Smooth Image Fade-In */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 
 #title-button {
     background-color: #151515;
@@ -49,12 +96,7 @@ body, html {
     justify-content: space-between;
 }
 
-.menu-buttons .continue-button, 
-.menu-buttons .load-button, 
-.menu-buttons .gallery-button, 
-.menu-buttons .exit-button
-
-{
+.menu-buttons button {
     background-color: #151515;
     width: 20%;
     color: white;
@@ -67,20 +109,18 @@ body, html {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
 }
 
-.menu-buttons .continue-button:hover,
-.menu-buttons .load-button:hover,
-.menu-buttons .gallery-button:hover,
-.menu-buttons .exit-button:hover {
+.menu-buttons button:hover {
     background-color: #333;
 }
 
 .settings-icon {
     display: none;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 10px;
+    right: 10px;
     font-size: 2vw;
     cursor: pointer;
+    z-index: 10;
 }
 
 .settings-panel {
@@ -128,10 +168,7 @@ body, html {
     max-height: 50%;
 }
 
-.tab-content .save-button,
-.tab-content .load-button,
-.tab-content .gallery-button,
-.tab-content .exit-button {
+.tab-content button{
     display:flex;
     width: 80%;
     color: BLACK;
@@ -143,18 +180,6 @@ body, html {
     cursor: pointer;
 }
 
-.tab-content .save-button:hover,
-.tab-content .load-button:hover,
-.tab-content .gallery-button:hover,
-.tab-content .exit-button:hover {
+.tab-content button:hover {
     color: #909090
-}
-
-.text-container {
-    font-size: 2rem;
-    width: 80%;
-    padding: 2rem;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 20px;
-    margin-top: 100px;
 }

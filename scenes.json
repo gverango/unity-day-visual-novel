@@ -1,17 +1,26 @@
+[
+    {
+        "id": 0,
+        "background": "assets/backgrounds/batmale_hall_staircase_1.jpg",
+        "text": "I sigh, pressing my forehead briefly against the cool glass of the window. Through the scratched up glass, I hold my breath. It's beautiful. From where I'm standing, the concrete plaza is below and the sky is still an endless blue. The warmth hits my face and I am relieved of all things lateness and printing.",
+        
+        "next": [1]
 
-{
-    "start": {
-      "background": "assets/backgrounds/ram_plaza.jpg",
-      "dialogue": [
-        { "character": "MC", "text": "The plaza is brimming with energy. It's Unity Day, the campus club fair." },
-        { "character": "MC", "text": "I'm here to find a club to join, but I'm not sure where to start..."}
-      ],
-      "choices": [
-        { "text": "Interested in the CS club/Anime/Engineering Club", "nextScene": "CS Club" },
-        { "text": "Interested in Student Council", "nextScene": "ASCO Tent" },
-        { "text": "Interested in food", "nextScene": "Food truck" },
-        { "text": "Not Interested/ Done looking", "nextScene": "Accidental Encounter" }
-      ]
+    },
+    {
+        "id": 1,
+        "background": "assets/backgrounds/batmale_hall_staircase_2.jpg",
+        "text": "No way I'm finding free printing like this",
+        "next": [2]
+    },
+    {
+        "id": 2,
+        "background": "assets/backgrounds/batmale_hall_elevator.jpg",
+        "character": "assets/characters/rocky_normal.png",
+        "text": "Who is this cunty, masc presenting ram?",
+        "choices": [
+            { "text": "Say Something", "next": 3 },
+            { "text": "Say nothing", "next": 4 }
+        ]
     }
-  }
-  
+]
