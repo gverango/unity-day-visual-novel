@@ -1,3 +1,4 @@
+/* ======== HTML (index.html) ======== */
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +12,7 @@
         <!-- Title Page -->
         <div id="title-button">Press any key to start</div>
 
-        <!-- Game Menu: hidden initially -->
+        <!-- Game Menu: Continue, Load, Gallery, Exit -->
         <div class="menu-buttons">
             <button class="continue-button">Continue</button>
             <button class="load-button">Load</button>
@@ -19,9 +20,8 @@
             <button class="exit-button">Exit</button>
         </div>
 
-        <!-- Settings Button -->
+        <!-- Settings: Menu, Controls, Settings -->
         <div class="settings-icon">⚙️</div>
-        <!-- Settings Panel -->
         <div class="settings-panel">
             <div class="tabs">
                 <button class="tab-button active" data-tab="menu">Menu</button>
@@ -40,15 +40,19 @@
                 <p>go back → SHIFT</p>
                 <p>settings → ESC</p>
             </div>
-            <div class="tab-content" id="settings" style="display: none;">This is the Settings content.</div>
+            <div class="tab-content" id="settings" style="display: none;">Settings content here.</div>
             <button class="close-button">Close</button>
         </div>
 
-        <div class="text-container">
-            <p>MUWAHHAAHAAHHAHAAHAHAHAHAHHAAHAHAHAHAHHAAHA</p>
-        </div>
+        
+    
+    <!-- Text Container (hidden until playing) -->
+    <div class="text-container" style="display: none;"></div>
+
     </div>
 
-    <script src="game.js"></script>
+    <script type="module" src="model.js"></script>
+    <script type="module" src="view.js"></script>
+    <script type="module" src="controller.js"></script>
+    
 </body>
-</html>
