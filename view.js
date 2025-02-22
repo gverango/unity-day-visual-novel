@@ -39,10 +39,29 @@ class GameView {
         }
 
         // Display scene text
+
         textContainer.style.display = 'block';
-        textContainer.innerHTML = `
-            <p>${scene.text}</p>
-        `;
+
+        //For transition to new scene and text
+        textContainer.style.opacity = '0'; 
+
+        //Typing effect ||||| Need to find a way so the container doesnt expand upwards.
+        const textElement = document.createElement('p');
+        textContainer.appendChild(textElement);
+        setTimeout(() => {
+            textContainer.style.transition = 'opacity 0.5s ease';
+            textContainer.style.opacity = '1';
+            let index = 0;
+            const text = scene.text;
+            const typeInterval = setInterval(() => {
+                if (index < text.length) {
+                    textElement.textContent += text.charAt(index);
+                    index++;
+                } else {
+                    clearInterval(typeInterval);
+                }
+            }, 30); // Adjust speed by changing this value
+        }, 500);
 
         // Display character sprity
         if (scene.character) {
