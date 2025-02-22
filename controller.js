@@ -36,6 +36,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
     //Text Container disguised as continue button for next scene and text
     document.querySelector('.text-container').addEventListener('click', () => {
+        
+        if(GameView.typingEffect) {
+            GameView.finishTyping();
+            return;
+        }
+        
         const currentScene = GameModel.getCurrentScene();
         if (currentScene.choices) {
             return;

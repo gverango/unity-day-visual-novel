@@ -89,13 +89,17 @@ body, html {
     background-color:#333;
 }
 
+/* changed this for ease of ui debug */
 .menu-buttons {
-    display: none; 
     position: absolute;
-    bottom: 2vw;
+    top: 30%;
+    left: 40%;
     width: 90%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .menu-buttons button {

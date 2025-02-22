@@ -1,6 +1,10 @@
 import GameModel from './model.js';
 
 class GameView {
+
+    static typingEffect = true;
+    static typeInterval = null;
+
     static showTitleScreen() {
         document.getElementById('title-button').style.display = 'block';
         document.querySelector('.menu-buttons').style.display = 'none';
@@ -19,6 +23,21 @@ class GameView {
     static closeMenu() {
         document.querySelector('.menu-buttons').style.display = 'none';
     }
+
+    static finishTyping() {
+       
+        if(!this.typingEffect) return; 
+
+        if(this.typeInterval) {
+            clearInterval(this.typeInterval);
+            this.typeInterval = null;
+        }
+        this.typingEffect = false;
+        const scene = GameModel.getCurrentScene();
+        const finishText = scene.text;
+        const textElement = document.querySelector('.text-container p')
+        textElement.textContent = finishText;
+        }
 
     static renderScene() {
         const scene = GameModel.getCurrentScene();
@@ -39,26 +58,31 @@ class GameView {
         }
 
         // Display scene text
-
         textContainer.style.display = 'block';
 
         //For transition to new scene and text
         textContainer.style.opacity = '0'; 
 
-        //Typing effect ||||| Need to find a way so the container doesnt expand upwards.
         const textElement = document.createElement('p');
         textContainer.appendChild(textElement);
+
+        //Flag to check for typing effect 
+        this.typingEffect = true;
+
+
+        //Typing effect interval
         setTimeout(() => {
             textContainer.style.transition = 'opacity 0.5s ease';
             textContainer.style.opacity = '1';
             let index = 0;
             const text = scene.text;
-            const typeInterval = setInterval(() => {
+            this.typeInterval = setInterval(() => {
                 if (index < text.length) {
                     textElement.textContent += text.charAt(index);
                     index++;
                 } else {
                     clearInterval(typeInterval);
+                    this.typingEffect = false
                 }
             }, 30); // Adjust speed by changing this value
         }, 500);
