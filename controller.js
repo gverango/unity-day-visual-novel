@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Close Button!
     document.querySelector('.close-button').addEventListener('click', () => {
-        gameModel.setState('menu');
+        GameModel.setState('menu');
         GameView.closeSettings();
     });
 
@@ -29,10 +29,28 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Exit Button → Return to Title
     document.querySelectorAll('.exit-button').forEach(button => {
         button.addEventListener('click', () => {
-            gameModel.setState('title');
+            GameModel.setState('title');
             GameView.closeSettings();
             GameView.showTitleScreen();
         });
     });
+    //Text Container disguised as continue button for next scene and text
+    document.querySelector('.text-container').addEventListener('click', () => {
+        
+        if(GameView.typingEffect) {
+            GameView.finishTyping();
+            return;
+        }
+        
+        const currentScene = GameModel.getCurrentScene();
+        if (currentScene.choices) {
+            return;
+        }
+
+        if (currentScene.next && currentScene.next.length != 0) {
+            GameModel.currentSceneIndex = currentScene.next[0];
+            GameView.renderScene();
+        }
+    })
 });
 
