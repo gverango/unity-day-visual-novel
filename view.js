@@ -72,6 +72,7 @@ class GameView {
 
         //Typing effect interval
         setTimeout(() => {
+            if (!this.typingEffect) return;
             textContainer.style.transition = 'opacity 0.5s ease';
             textContainer.style.opacity = '1';
             let index = 0;
