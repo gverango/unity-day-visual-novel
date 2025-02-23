@@ -95,10 +95,11 @@ class GameView {
             characterImg.alt = 'Character';
             characterImg.classList.add('character-sprite');
             characterImg.style.position = 'absolute';
-            characterImg.style.bottom = '10px';
+            characterImg.style.bottom = '34%'; // position Y of sprite is not in relation to the container
             characterImg.style.left = '50%';
             characterImg.style.transform = 'translateX(-50%)';
-            characterImg.style.height = '60%';
+            characterImg.style.height = '1280px';
+            characterImg.style.width = '425px';
             container.appendChild(characterImg);
         }
     }
