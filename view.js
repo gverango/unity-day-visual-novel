@@ -85,7 +85,7 @@ class GameView {
                     clearInterval(typeInterval);
                     this.typingEffect = false
                 }
-            }, 30); // Adjust speed by changing this value
+            }, 20); // Adjust speed by changing this value
         }, 500);
 
         // Display character sprity
