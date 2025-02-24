@@ -10,7 +10,7 @@
         "id": 1,
         "background": "assets/backgrounds/batmale_hall_staircase_2.jpg",
         "speaker": "",
-        "text": "The air carries something weightless, clinging to the skin, like the traces of a forgotten dream. It's the kind of day that reminds the heart it was made for longing, whether real or imagined, love finds its way.",
+        "text": "The air carries \\n something weightless, clinging to the skin, like the traces of a forgotten dream. It's the kind of day that reminds the heart it was made for longing, whether real or imagined, love finds its way.",
         "next": [2]
     },
     {
@@ -74,7 +74,7 @@
         "id": 10,
         "background": "",
         "speaker": "",
-        "text": "",
+        "text": "...",
         "next": [11]
     },
     {
@@ -312,56 +312,56 @@
         "id": 44,
         "background": "",
         "speaker": "",
-        "text": "",
+        "text": "It's 11:59 am. Only a minute before class ends. My tummy grumbles. I haven't eaten all day.. I take out the flyer. let's go check it out. If anything I'll stop by McDonalds.",
         "next": [45]
     },
     {
         "id": 45,
         "background": "",
         "speaker": "",
-        "text": "",
+        "text": "I sprint Cloud Circle towards Ram Plaza, the bass from the speakers banging in my chest. Red tents line the plaza perimeter, students weaving through the crowd, voices overlapping with the music.",
         "next": [46]
     },
     {
         "id": 46,
         "background": "",
         "speaker": "",
-        "text": "",
+        "text": "Students crowd the bright, big ASCO tent. It's probably where I should check in. I make my way over, and see Vaughn, ICC Vice President. He has on his usual fashionable jewelry and jorts.",
         "next": [47]
     },
     {
         "id": 47,
         "background": "",
         "speaker": "",
-        "text": "",
+        "text": "We make eye contact and he hands me a card.",
         "next": [48]
     },
     {
         "id": 48,
         "background": "",
         "speaker": "",
-        "text": "",
+        "text": "There's a grid of all the clubs present today on that stamp card. Every club and resource center should have you stamp it after you visit. Five stamps and this Los Kuyas is yours.",
         "next": [49]
     },
     {
         "id": 49,
         "background": "",
         "speaker": "",
-        "text": "",
+        "text": "He holds up a taco bowl and waves it coyly.",
         "next": [50]
     },
     {
         "id": 50,
         "background": "",
         "speaker": "",
-        "text": "",
+        "text": "I scan the list. Two clubs stand out.",
         "next": [51]
     },
     {
         "id": 51,
         "background": "",
         "speaker": "",
-        "text": "",
+        "text": "CS Club, Anime Club.. Hmmmmm",
         "next": [52]
     },
     {
