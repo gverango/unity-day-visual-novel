@@ -91,7 +91,7 @@
     },
     {
         "id": 11,
-        "background": "assets/backgrounds/alfred_desk",
+        "background": "assets/backgrounds/alfred_desk.jpg",
         "speaker": "",
         "text": "A pool of shonen jump magazines, stickers and trinkets displayed on his desk and I tiptoe closer for a better look.",
         "next": [
@@ -100,7 +100,7 @@
     },
     {
         "id": 12,
-        "background": "assets/backgrounds/computer_room_dark",
+        "background": "assets/backgrounds/computer_room_dark.jpg",
         "speaker": "",
         "text": "His desk faces another room. I peer in, only a whiteboard with faded words and scribbles 'General Meeting 2/21' but I don’t get the chance to inspect it before–",
         "next": [
