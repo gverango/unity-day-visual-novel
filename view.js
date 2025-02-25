@@ -50,12 +50,17 @@ class GameView {
 
         // Set background
         if (scene.background) {
-            container.style.backgroundImage = `url('${scene.background}')`;
-            container.style.backgroundSize = 'cover';
-            container.style.backgroundPosition = 'center';
+            const bg = new Image();
+            bg.src = scene.background;
+            bg.onload = () => { //preloads image before displaying
+                container.style.backgroundImage = `url('${scene.background}')`;
+                container.style.backgroundSize = 'cover';
+                container.style.backgroundPosition = 'center';
+            };
         } else {
             container.style.backgroundImage = 'none';
         }
+        
 
         // Display scene text
         textContainer.style.display = 'block';
