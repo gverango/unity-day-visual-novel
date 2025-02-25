@@ -1,423 +1,847 @@
 [
     {
-        "id": 0,
-        "background": "assets/backgrounds/batmale_hall_staircase_1.jpg",
-        "speaker": "",
-        "text": "Spring arrives at CCSF with a warmth I haven't felt in a long time.",
-        "next": [1]
-    },
-    {
         "id": 1,
-        "background": "assets/backgrounds/batmale_hall_staircase_2.jpg",
+        "background": "assets/backgrounds/grass.jpg",
         "speaker": "",
-        "text": "The air carries \\n something weightless, clinging to the skin, like the traces of a forgotten dream. It's the kind of day that reminds the heart it was made for longing, whether real or imagined, love finds its way.",
-        "next": [2]
+        "text": "Spring arrives at CCSF with a warmth I haven’t felt in a long time. ",
+        "next": [
+            2
+        ]
     },
     {
         "id": 2,
-        "background": "assets/backgrounds/batmale_hall_elevator.jpg",
-        "character": "assets/characters/rocky_normal.png",
+        "background": "assets/backgrounds/grass.jpg",
         "speaker": "",
-        "text": "Batmale Hall stands ahead, its doors as unassuming as ever. I'm visiting the ACRC today, since there are whispers of the free printing available to students, nothing more.",
-        "next": [3]
+        "text": "The air carries something weightless, clinging to the skin, like the traces of a forgotten dream. The kind of day that reminds the heart it was made for longing, whether real or imagined, love finds its way. ",
+        "next": [
+            3
+        ]
     },
     {
         "id": 3,
-        "background": "",
+        "background": "assets/backgrounds/batmale_hall.jpg",
         "speaker": "",
-        "text": "I enter the lobby and turn into the staircase. What a weird building.. Third floor disguised as the First floor… This feels like a Batman's secret hideout.",
-        "next": [4]
+        "text": "Batmale Hall stands ahead, its doors as unassuming as ever. I’m visiting the ACRC today, for the free printing available to students, nothing particularly more.",
+        "next": [
+            4
+        ]
     },
     {
         "id": 4,
-        "background": "",
+        "background": "assets/backgrounds/batmale_hall_staircase.jpg",
         "speaker": "",
-        "text": "I see a sign for the CS Tutor Squad hours posted near its entrance. Before entering, the lights made me a bit more at ease considering the spooky, cold concrete halls I had walked through.",
-        "next": [5]
+        "text": "I enter the lobby and turn into the staircase. What a weird building.. Third floor disguised as the First floor… This feels like a Batman’s secret hideout.",
+        "next": [
+            5
+        ]
     },
     {
         "id": 5,
-        "background": "",
+        "background": "assets/backgrounds/acrc_outside.jpg",
         "speaker": "",
-        "text": "Most students are hunched over their own laptops, ignoring the ancient desktops lining the walls.",
-        "next": [6]
+        "text": "There’s a CS Tutor Squad hours posted near its entrance. Most students are hunched over their own laptops, ignoring the ancient desktops lining the walls.",
+        "next": [
+            6
+        ]
     },
     {
         "id": 6,
-        "background": "",
+        "background": "assets/backgrounds/acrc_inside.jpg",
         "speaker": "",
-        "text": "Such focus and determination...... The power level of these brain cells must be over 9000",
-        "next": [7]
+        "text": "Such focus and determination….. The power level of these brain cells must be over 9000",
+        "next": [
+            7
+        ]
     },
     {
         "id": 7,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
         "speaker": "",
-        "text": "I see the printer-shaped machine as soon as I walk in. Is the AC broken? It feels like a sauna in here. I open up my laptop to find the PDF I am trying to print. ",
-        "next": [8]
+        "text": "I walk towards the printer-shaped machine as soon as I spot it and open up my laptop to find the PDF I am trying to print.",
+        "next": [
+            8
+        ]
     },
     {
         "id": 8,
-        "background": "",
+        "background": "assets/backgrounds/printer_closeup.jpg",
         "speaker": "",
-        "text": "I'm here to print out an essay for my English 1B class. I click one more button before the beast clunks to life. A few more seconds, and… a few hot and fresh pages slide out. It smells like baked bread.",
-        "next": [9]
+        "text": "I’m here to print out an essay for my English 1B class. I click one more button before the beast clunks to life. A few more seconds, and… a few hot and fresh pages slide out. It smells like baked bread.",
+        "next": [
+            9
+        ]
     },
     {
         "id": 9,
-        "background": "",
+        "background": "assets/backgrounds/acrc_inside.jpg",
         "speaker": "",
-        "text": "The rhythmic shuffle of the printer snaps me back. I slide the pages into a folder, tuck them into my bag, and sling it over my shoulder. I hope i'm not late to class today.",
-        "next": [10]
+        "text": "The rhythmic shuffle of the printer snaps me back. I slide the pages into a folder, tuck them into my bag, and sling it over my shoulder. I hope I'm not late to class today…",
+        "next": [
+            10
+        ]
     },
     {
         "id": 10,
-        "background": "",
+        "background": "assets/backgrounds/alfred.jpg",
         "speaker": "",
-        "text": "...",
-        "next": [11]
+        "text": "I take in the room. I notice the clutter, or maximalism. At the center, an older gentleman in a red vest sits behind an ellipse shaped table, his quiet authority.",
+        "next": [
+            11
+        ]
     },
     {
         "id": 11,
-        "background": "",
+        "background": "assets/backgrounds/alfred_desk",
         "speaker": "",
-        "text": "I take in the room. I notice the clutter, or maximalism. At the center, an older gentleman in a red vest sits behind an ellipse shaped table, his quiet authority.",
-        "next": [12]
+        "text": "A pool of shonen jump magazines, stickers and trinkets displayed on his desk and I tiptoe closer for a better look.",
+        "next": [
+            12
+        ]
     },
     {
         "id": 12,
-        "background": "",
+        "background": "assets/backgrounds/computer_room_dark",
         "speaker": "",
-        "text": "The sight of Solo Leveling attracts my eyes. Laying on the counter of his desk was the latest Shonen Jump magazine. AOT, Death Note, a whole pool of anime magazines, stickers and trinkets displayed on his desk as I slowly edged closer for a better look.",
-        "next": [13]
+        "text": "His desk faces another room. I peer in, only a whiteboard with faded words and scribbles 'General Meeting 2/21' but I don’t get the chance to inspect it before–",
+        "next": [
+            13
+        ]
     },
     {
         "id": 13,
-        "background": "",
+        "background": "assets/backgrounds/acrc_inside.jpg",
         "speaker": "",
-        "text": "His desk faces another room. I peer in, only a whiteboard with faded words and scribbles “General Meeting 2/21” but I don't get the chance to inspect it before---",
-        "next": [14]
+        "text": "RRRRRRRRRRRRRR",
+        "next": [
+            14
+        ]
     },
     {
         "id": 14,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
         "speaker": "",
-        "text": "RRRRRRRRRRRRRR",
-        "next": [15]
+        "text": "The sound scrapes against my nerves and I turn towards the saiyan-level screaming coming from the printer.",
+        "next": [
+            15
+        ]
     },
     {
         "id": 15,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_shocked.png",
         "speaker": "",
-        "text": "The sound scrapes against my nerves. And I instinctively turn toward the loud screech thats more powerful than Goku's super saiyan 3. That printer must have trained all its life for this moment.",
-        "next": [16]
+        "text": "Tall, frozen mid-motion. Horns curled like a helix in space. His expression is one of pure shock, like he’s been caught red-handed. A deer– no, a ram–in headlights.",
+        "next": [
+            16
+        ]
     },
     {
         "id": 16,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_shocked.png",
         "speaker": "",
-        "text": "Tall, frozen mid-motion. Horns curled like a helix in space. His expression is one of pure shock, like he's been caught red-handed. A deer- no, a ram-in headlights.",
-        "next": [17]
+        "text": "Rocky stands at the printer, stiff as a board, as if sheer willpower might erase the sound that just tore through the room. His hands hover uselessly over the machine, shoulders tense.",
+        "next": [
+            17
+        ]
     },
     {
         "id": 17,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_sad.png",
         "speaker": "",
-        "text": "Rocky stands at the printer, stiff as a board, as if sheer willpower might erase the sound that just tore through the room. His hands hover uselessly over the machine, shoulders tense.",
-        "next": [18]
+        "text": "I hesitate. He’s clearly embarrassed. His aura -9000. Not even the gacha gods can save him now. Do I step in ?",
+        "next": [
+            18
+        ]
     },
     {
         "id": 18,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_sad.png",
         "speaker": "",
-        "text": "I hesitate. He's clearly embarrassed. His aura -9000. Not even the gacha gods can save him now. Do I step in or would he just feel very exposed to the embarrassment?",
-        "next": [19]
+        "text": "",
+        "choices": [
+            {
+                "text": "Help him",
+                "next": 19
+            },
+            {
+                "text": "Do nothing",
+                "next": 30
+            }
+        ]
     },
     {
         "id": 19,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_sad.png",
         "speaker": "",
-        "text": "I step closer, peeking over his shoulder at the printer screen. He still hasn't said a word—maybe he's too stunned to speak.",
-        "next": [20]
+        "text": "I step closer, peeking over his shoulder at the printer screen. He still hasn’t said a word—maybe he’s too stunned to speak.",
+        "next": [
+            20
+        ]
     },
     {
         "id": 20,
-        "background": "",
+        "background": "assets/backgrounds/printer_closeup.jpg",
         "speaker": "",
         "text": "The screen loads slowly, and when the details appear, I gasp.",
-        "next": [21]
+        "next": [
+            21
+        ]
     },
     {
         "id": 21,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_shocked.png",
         "speaker": "",
-        "text": "Rocky jolts at the sound, like a second-hand embarrassment jump scare. He glances at me, wide-eyed and nervous.",
-        "next": [22]
+        "text": "Rocky jolts at the sound. He glances at me, wide-eyed and nervous.",
+        "next": [
+            22
+        ]
     },
     {
         "id": 22,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_nervous.png",
         "speaker": "",
-        "text": "Immediately noticing his diabolical mistake. I sigh… Should I tell him what's wrong?",
-        "next": [23]
+        "text": "Immediately noticing his diabolical mistake. I sigh… Should I tell him what’s wrong?",
+        "next": [
+            23
+        ]
     },
     {
         "id": 23,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_nervous.png",
         "speaker": "",
         "text": "Rubbing the back of my neck. 'Sooo, the problem is... that you're trying to print a thousand pages???'",
-        "next": [24]
+        "next": [
+            24
+        ]
     },
     {
         "id": 24,
-        "background": "",
-        "speaker": "",
-        "text": "Rocky blinks. Some of his nervousness fades, replaced by something dangerously close to amusement.",
-        "next": [25]
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_nervous.png",
+        "speaker": "Rocky",
+        "text": "...Yeah?",
+        "next": [
+            25
+        ]
     },
     {
         "id": 25,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_normal.png",
         "speaker": "",
-        "text": "'...Yeah?'",
-        "next": [26]
+        "text": "I stare at him. He stares back.",
+        "next": [
+            26
+        ]
     },
     {
         "id": 26,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_normal.png",
         "speaker": "",
-        "text": "I stare at him. He stares back.",
-        "next": [27]
+        "text": "It takes me a second to process how utterly unfazed he is. Like he genuinely expected the printer to handle a mountain of color pages without a hitch.",
+        "next": [
+            27
+        ]
     },
     {
         "id": 27,
-        "background": "",
+        "background": "assets/backgrounds/printer_closeup.jpg",
         "speaker": "",
-        "text": "It takes me a second to process how utterly unfazed he is. Like he genuinely expected the printer to handle a mountain of color pages without a hitch.",
-        "next": [28]
+        "text": "The printer, of course, disagrees. It lets out a weak, defeated beep.",
+        "next": [
+            28
+        ]
     },
     {
         "id": 28,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_sad.png",
         "speaker": "",
-        "text": "The printer, of course, disagrees. It lets out a weak, defeated beep.",
-        "next": [29]
+        "text": "Rocky looks at it like he’s just been personally betrayed.",
+        "next": [
+            29
+        ]
     },
     {
         "id": 29,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_shy.png",
         "speaker": "",
-        "text": "Rocky looks at it like he's just been personally betrayed.",
-        "next": [30]
+        "text": "He has a red paper in his hand, kind of crumpled up now. Rocky hands it to me and quickly runs out the room. Bros embarrassed.",
+        "next": [
+            36
+        ]
     },
     {
         "id": 30,
-        "background": "",
+        "background": "assets/backgrounds/alfred.jpg",
         "speaker": "",
-        "text": "He has a red paper in his hand, kind of crumpled up now. Rocky hands it to me and quickly runs out the room. Bros embarrassed.",
-        "next": [31]
+        "text": "I glance at the older gentleman in the red vest—his domain, his problem.",
+        "next": [
+            31
+        ]
     },
     {
         "id": 31,
-        "background": "",
+        "background": "assets/backgrounds/alfred_desk.jpg",
         "speaker": "",
-        "text": "I glance at the older gentleman in the red vest—his domain, his problem.",
-        "next": [32]
+        "text": "Settling into a seat nearby, I grab one of the Shonen Jump magazines and start flipping through. A few pages in, my eyes flick up, catching glimpses of the disaster unfolding.",
+        "next": [
+            32
+        ]
     },
     {
         "id": 32,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_nervous.png",
         "speaker": "",
-        "text": "Settling into a seat nearby, I grab one of the Shonen Jump magazines and start flipping through.",
-        "next": [33]
+        "text": "The older gentleman leans over, inspecting the printer. Rocky, still standing there, shifts awkwardly from foot to foot.",
+        "next": [
+            33
+        ]
     },
     {
         "id": 33,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_shocked.png",
         "speaker": "",
-        "text": "A few pages in, my eyes flick up, catching glimpses of the disaster unfolding.",
-        "next": [34]
+        "text": "A quiet exchange happens, and then—Rocky physically recoils. Probably just now realizing the gravity of his thousand-page crime.",
+        "next": [
+            34
+        ]
     },
     {
         "id": 34,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_sad.png",
         "speaker": "",
-        "text": "The older gentleman leans over, inspecting the printer. Rocky, still standing there, shifts awkwardly from foot to foot.",
-        "next": [35]
+        "text": "I stifle a grin and turn the page.",
+        "next": [
+            35
+        ]
     },
     {
         "id": 35,
-        "background": "",
+        "background": "assets/backgrounds/printer.jpg",
+        "character": "assets/characters/rocky_shy.png",
         "speaker": "",
-        "text": "A quiet exchange happens, and then—Rocky physically recoils. Probably just now realizing the gravity of his thousand-page crime.",
-        "next": [36]
+        "text": "Rocky turns defeated and quickly exits the room. He leaves a crumpled red flyer on the printer. ",
+        "next": [
+            36
+        ]
     },
     {
         "id": 36,
-        "background": "",
+        "background": "assets/backgrounds/printer_closeup.jpg",
         "speaker": "",
-        "text": "I stifle a grin and turn the page. Bro is in a infinite boss-fight loop.",
-        "next": [37]
+        "text": "It's bright and red. A club fair flyer? 'Unity Day'... I keep reading… Today!?",
+        "next": [
+            37
+        ]
     },
     {
         "id": 37,
-        "background": "",
+        "background": "assets/backgrounds/unity_day_flyer.jpg",
         "speaker": "",
-        "text": "Rocky turns defeated and quickly exits the ACRC as if he felt the older gentlemen's infinite power level rising to deal with the printer.",
-        "next": [38]
+        "text": "It piques my interest actually… and free food. It’s at Ram Plaza, by the Student Union building. It’ll be open for a couple of hours. Perfect timing, since I’ll be hungry once I’m let out of class. ",
+        "next": [
+            38
+        ]
     },
     {
         "id": 38,
-        "background": "",
+        "background": "assets/backgrounds/acrc_inside.jpg",
         "speaker": "",
-        "text": "He left a crumpled red flyer on the printer.",
-        "next": [39]
+        "text": "Rocky has already left. I wonder if I'll see him again?",
+        "next": [
+            39
+        ]
     },
     {
         "id": 39,
-        "background": "",
+        "background": "assets/backgrounds/batmale_hall.jpg",
         "speaker": "",
-        "text": "It's bright and red. A club fair flyer? “Unity Day”… I keep reading… Today!?",
-        "next": [40]
+        "text": "...NOO im late for class again.",
+        "next": [
+            40
+        ]
     },
     {
         "id": 40,
-        "background": "",
+        "background": "assets/backgrounds/batmale_horizon.jpg",
         "speaker": "",
-        "text": "It piques my interest actually… and free food. It's at Ram Plaza, by the Student Union building. It'll be open for a couple of hours. Perfect timing, since I'll be hungry once I'm let out of class.",
-        "next": [41]
+        "text": "It's 11:59 am. Only a minute before class ends. My tummy grumbles. I haven’t eaten all day.. I take out the flyer. I’ll go check it out. If anything, I’ll stop by McDonalds. ",
+        "next": [
+            41
+        ]
     },
     {
         "id": 41,
-        "background": "",
+        "background": "assets/backgrounds/road.jpg",
         "speaker": "",
-        "text": "Have I fallen for a trap? Is this some sort of cursed technique to lure me to this place?",
-        "next": [42]
+        "text": "I sprint Cloud Circle towards Ram Plaza, the bass from the speakers banging in my chest. Red tents line the plaza perimeter, students weaving through the crowd, voices overlapping with the music.",
+        "next": [
+            42
+        ]
     },
     {
         "id": 42,
-        "background": "",
+        "background": "assets/backgrounds/ram_plaza.jpg",
         "speaker": "",
-        "text": "Rocky has already left. I wonder if I'll see him again?",
-        "next": [43]
+        "text": "Students crowd the bright, big ASCO tent. It’s probably where I should check in. I make my way over, and see Vaughn, ICC Vice President. He has on his usual fashionable jewelry and jorts. ",
+        "next": [
+            43
+        ]
     },
     {
         "id": 43,
-        "background": "",
+        "background": "assets/backgrounds/asco_tent.jpg",
+        "character": "assets/backgrounds/vaughn_normal.png",
         "speaker": "",
-        "text": "...NOO im late for class again.",
-        "next": [44]
+        "text": "We make eye contact and he hands me a card.",
+        "next": [
+            44
+        ]
     },
     {
         "id": 44,
-        "background": "",
-        "speaker": "",
-        "text": "It's 11:59 am. Only a minute before class ends. My tummy grumbles. I haven't eaten all day.. I take out the flyer. let's go check it out. If anything I'll stop by McDonalds.",
-        "next": [45]
+        "background": "assets/backgrounds/asco_tent.jpg",
+        "character": "assets/backgrounds/vaughn_normal.png",
+        "speaker": "Vaughn",
+        "text": "Here’s a grid of all the clubs present today on that stamp card. Every club and resource center should have you stamp it after you visit. Five stamps and this Los Kuyas is yours.",
+        "next": [
+            45
+        ]
     },
     {
         "id": 45,
-        "background": "",
+        "background": "assets/backgrounds/asco_tent.jpg",
+        "character": "assets/backgrounds/vaughn_smile.png",
         "speaker": "",
-        "text": "I sprint Cloud Circle towards Ram Plaza, the bass from the speakers banging in my chest. Red tents line the plaza perimeter, students weaving through the crowd, voices overlapping with the music.",
-        "next": [46]
+        "text": "He holds up a taco bowl and waves it coyly. My stomach grumbles.",
+        "next": [
+            46
+        ]
     },
     {
         "id": 46,
-        "background": "",
+        "background": "assets/backgrounds/unity_day_layout.jpg",
         "speaker": "",
-        "text": "Students crowd the bright, big ASCO tent. It's probably where I should check in. I make my way over, and see Vaughn, ICC Vice President. He has on his usual fashionable jewelry and jorts.",
-        "next": [47]
+        "text": "I scan the list. Two clubs stand out.",
+        "next": [
+            47
+        ]
     },
     {
         "id": 47,
-        "background": "",
+        "background": "assets/backgrounds/unity_day_layout.jpg",
         "speaker": "",
-        "text": "We make eye contact and he hands me a card.",
-        "next": [48]
+        "text": "CS Club, Anime Club",
+        "next": [
+            48
+        ]
     },
     {
         "id": 48,
-        "background": "",
+        "background": "assets/backgrounds/asco_tent.jpg",
         "speaker": "",
-        "text": "There's a grid of all the clubs present today on that stamp card. Every club and resource center should have you stamp it after you visit. Five stamps and this Los Kuyas is yours.",
-        "next": [49]
+        "text": "",
+        "choices": [
+            {
+                "text": "Imagine the Smell",
+                "next": 49
+            },
+            {
+                "text": "I like Anime, I guess",
+                "next": 87
+            }
+        ]
     },
     {
         "id": 49,
-        "background": "",
+        "background": "assets/backgrounds/asco_tent.jpg",
+        "character": "assets/characters/vaughn_nomal.jpg",
         "speaker": "",
-        "text": "He holds up a taco bowl and waves it coyly.",
-        "next": [50]
+        "text": "I would like to check out the CS Club, could you point me to them?",
+        "next": [
+            50
+        ]
     },
     {
         "id": 50,
-        "background": "",
-        "speaker": "",
-        "text": "I scan the list. Two clubs stand out.",
-        "next": [51]
+        "background": "assets/backgrounds/asco_tent.jpg",
+        "character": "assets/characters/vaughn_smile.jpg",
+        "text": "Vaughn smiles, knowingly and amused, he must have a soft spot for them. He points towards the Student Union Building. ",
+        "next": [
+            51
+        ]
     },
     {
         "id": 51,
-        "background": "",
+        "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
-        "text": "CS Club, Anime Club.. Hmmmmm",
-        "next": [52]
+        "text": "I make my over and see it. Two tables under another red tent, a huge monitor and three seemingly contrasting characters wait for me.",
+        "next": [
+            52
+        ]
     },
     {
         "id": 52,
-        "background": "",
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_normal.jpg",
         "speaker": "",
-        "text": "",
-        "next": [53]
+        "text": "I make eye contact with one of them.",
+        "next": [
+            53
+        ]
     },
     {
         "id": 53,
-        "background": "",
-        "speaker": "",
-        "text": "",
-        "next": [54]
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_talking.jpg",
+        "speaker": "Vena",
+        "text": "“Welcome ! Welcome! Are you mayhaps interested in Computer Science-ing?”",
+        "next": [
+            54
+        ]
     },
     {
         "id": 54,
-        "background": "",
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_talking.jpg",
         "speaker": "",
-        "text": "",
-        "next": [55]
+        "text": "Her greeting startles me a bit, like someone turning on the lights in a dark room. Her eyes brighten.",
+        "next": [
+            55
+        ]
     },
     {
         "id": 55,
-        "background": "",
-        "speaker": "",
-        "text": "",
-        "next": [56]
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_normal.jpg",
+        "speaker": "Vena",
+        "text": "“Before I answer what we do, I must insist on introducing who we are.”",
+        "next": [
+            56
+        ]
     },
     {
         "id": 56,
-        "background": "",
-        "speaker": "",
-        "text": "",
-        "next": [57]
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_talking.jpg",
+        "speaker": "Vena",
+        "text": "“I’m Vena. I’m the President of this club and we would love to have you. This is my third semester here as a CE major. I love synths, dsp, C++, femb–”",
+        "next": [
+            57
+        ]
     },
     {
         "id": 57,
-        "background": "",
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_talking.jpg",
         "speaker": "",
-        "text": "",
-        "next": [58]
+        "text": "I’m startled. This one is a yapper. Vena doesn’t stop herself from disclosing more. My mind is wandering. But my eyes meet the person dressed in pink lolita. ",
+        "next": [
+            58
+        ]
     },
     {
         "id": 58,
-        "background": "",
-        "speaker": "",
-        "text": "",
-        "next": [59]
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/pink_speaking.jpg",
+        "speaker": "Pink",
+        "text": "V-Vena clearly this person is waiting for a stamp, not to hear you yap",
+        "next": [
+            59
+        ]
     },
     {
         "id": 59,
-        "background": "",
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/pink_normal.jpg",
+        "speaker": "",
+        "text": "She pulls out an ink stick and motions for my card. I hand it over so I’m a fifth way to my free meal. Vena is unfazed and goes on to introduce everyone at the table”",
+        "next": [
+            60
+        ]
+    },
+    {
+        "id": 60,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_talking.jpg",
+        "speaker": "Vena",
+        "text": "You’re such a hater, Pink. This is my friend, even if she doesn’t think so… She’s super into pure maths and held coding workshops the past semester. She also decided to dress super cute today as part of the anime club.",
+        "next": [
+            61
+        ]
+    },
+    {
+        "id": 61,
+        "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
         "text": "",
-        "next": [60]
+        "next": [
+            62
+        ]
+    },
+    {
+        "id": 62,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/ganyu.png",
+        "speaker": "",
+        "text": "Vena motions to the table beside them. Oh, Manga and Anime Club is right next door, I make eye contact with a blue creature, but not long enough to decide if it's cute or cursed.",
+        "next": [
+            63
+        ]
+    },
+    {
+        "id": 63,
+        "background": "assets/backgrounds/student_union.jpg",
+        "speaker": "",
+        "text": "I turn back. And contemplate for a moment,",
+        "next": [
+            64
+        ]
+    },
+    {
+        "id": 64,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/pink_normal.png",
+        "speaker": "",
+        "text": "Oh yeah, that is so impressive and I think you look great ",
+        "next": [
+            65
+        ]
+    },
+    {
+        "id": 65,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/pink_normal.png",
+        "speaker": "",
+        "text": "Pink is still for a moment, before motioning a thank you and darting behind the tables where I could barely see. ,",
+        "next": [
+            66
+        ]
+    },
+    {
+        "id": 66,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/pink_talking.png",
+        "speaker": "Pink",
+        "text": "I’;s time to sin 🙏",
+        "next": [
+            67
+        ]
+    },
+    {
+        "id": 67,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/pink_normal.png",
+        "speaker": "",
+        "text": "I’m confused, but before I could reason, someone in a zip up hoodie takes her place.",
+        "next": [
+            68
+        ]
+    },
+    {
+        "id": 68,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/jacky_normal.png",
+        "speaker": "Jacky",
+        "text": "Hi I’m Kevin",
+        "next": [
+            69
+        ]
+    },
+    {
+        "id": 69,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_talking.png",
+        "speaker": "Vena",
+        "text": "HE IS NOT! This is Jacky!",
+        "next": [
+            70
+        ]
+    },
+    {
+        "id": 70,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/jacky_normal.png",
+        "speaker": "Jacky",
+        "text": "NO I’m Kevin!",
+        "next": [
+            71
+        ]
+    },
+    {
+        "id": 71,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/jacky_embarrassed.png",
+        "speaker": "Vena",
+        "text": "“This is Jacky, our Olympian level marathon runner. He is also super smart and is doing Data Science-y stuff at UPenn. At the club, he goes to hackathons, wins prizes, and raids tech HQs of all their Yerba Mates.”",
+        "next": [
+            72
+        ]
+    },
+    {
+        "id": 72,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/jacky_embarrassed.png",
+        "speaker": "",
+        "text": "Wait, so, you don’t go here?",
+        "next": [
+            73
+        ]
+    },
+    {
+        "id": 73,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/jacky_normal.png",
+        "speaker": "Jacky",
+        "text": "💀💀💀",
+        "next": [
+            74
+        ]
+    },
+    {
+        "id": 74,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/jacky_normal.png",
+        "speaker": "",
+        "text": "Kev–no, Jacky turtles into his hoodie. I’m guessing the tech HQ raids are where all the company stickers scattered on the table are from.”",
+        "next": [
+            75
+        ]
+    },
+    {
+        "id": 75,
+        "background": "assets/backgrounds/student_union.jpg",
+        "speaker": "",
+        "text": "“Hmm, wow you guys do a lot! But where do you guys meet and where are your other officers, Vena?””",
+        "next": [
+            76
+        ]
+    },
+    {
+        "id": 76,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_talking.png",
+        "speaker": "Vena",
+        "text": "“We have our general meetings every Friday, 2:30 to 5:00 pm in Batmale 301, the ACRC!”",
+        "next": [
+            77
+        ]
+    },
+    {
+        "id": 77,
+        "background": "assets/backgrounds/computer_room_dark.jpg",
+        "speaker": "",
+        "text": "I recognize the name. And think back to the dark computer room in the ACRC.",
+        "next": [
+            78
+        ]
+    },
+    {
+        "id": 78,
+        "background": "assets/backgrounds/computer_room.jpg",
+        "speaker": "",
+        "text": "Ah.",
+        "next": [
+            79
+        ]
+    },
+    {
+        "id": 79,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_talking.png",
+        "speaker": "Vena",
+        "text": "Well, officially, there are two other officers, but we don’t do the top-do system at CS Club. With that being said, they're here today but are still engrossed in their own things right now.",
+        "next": [
+            80
+        ]
+    },
+    {
+        "id": 80,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_sad.png",
+        "speaker": "Vena",
+        "text": "Gev’s busy making a game with Anime Club and John’s cooking up his hedge fund in Minecraft… Both haven't showered in a week",
+        "next": [
+            81
+        ]
+    },
+    {
+        "id": 81,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_normal.png",
+        "speaker": "",
+        "text": "This is the first time seeing Vena defeated, but she quickly laughs it off. I realize there is a signup sheet on their table and I pick up an already uncapped pen.",
+        "next": [
+            82
+        ]
+    },
+    {
+        "id": 82,
+        "background": "",
+        "speaker": "",
+        "text": "[Enter your name]”",
+        "next": [
+            83
+        ]
+    },
+    {
+        "id": 83,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_normal.png",
+        "speaker": "",
+        "text": "Vena leans over to read it upside down,",
+        "next": [
+            84
+        ]
+    },
+    {
+        "id": 84,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_talking.png",
+        "speaker": "Vena",
+        "text": "reversed(name)?",
+        "next": [
+            85
+        ]
+    },
+    {
+        "id": 85,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_normal.png",
+        "speaker": "”",
+        "text": "No, No- {name}",
+        "next": [
+            86
+        ]
+    },
+    {
+        "id": 86,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_talking.png",
+        "speaker": "Vena",
+        "text": "Ohhh {name} !Thank you so much for stopping by, pleeease join our Discord where more fun shit happens.",
+        "next": []
+    },
+    {
+        "id": 87,
+        "background": "",
+        "speaker": "",
+        "text": "I would like to check out the Anime Club, could you point me to them?",
+        "next": [
+            88
+        ]
     }
 ]
