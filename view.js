@@ -82,7 +82,7 @@ class GameView {
                     textElement.textContent += text.charAt(index);
                     index++;
                 } else {
-                    clearInterval(typeInterval);
+                    clearInterval(this.typeInterval);
                     this.typingEffect = false
                 }
             }, 20); // Adjust speed by changing this value

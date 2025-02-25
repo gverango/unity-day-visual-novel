@@ -51,9 +51,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
 
-        if (currentScene.next && currentScene.next.length != 0) {
-            GameModel.currentSceneIndex = currentScene.next[0];
-            GameView.renderScene();
+        
+        if (currentScene.next && currentScene.next.length !== 0) {
+            const nextSceneId = currentScene.next[0]; //findIndex soo that scene progression aren't necessarily sequential
+            const nextSceneIndex = GameModel.scenes.findIndex(scene => scene.id === nextSceneId);
+            if (nextSceneIndex !== -1) {
+                GameModel.currentSceneIndex = nextSceneIndex;
+                GameView.renderScene();
+            } else {
+                console.error('next scene id not found:', nextSceneId);
+            }
         }
         
         setTimeout(() => {
