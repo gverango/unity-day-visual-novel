@@ -63,6 +63,27 @@ body, html {
     height: 150px; /*might remove but temporary fix to text box expanding upwards*/
 }
 
+.choices-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.choice-button {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+    color: rgb(220, 200, 51);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: left;
+}
+
+.choice-button:hover {
+    border: 2px solid rgb(220, 200, 51);
+}
 
 /* Smooth Image Fade-In */
 @keyframes fadeIn {
