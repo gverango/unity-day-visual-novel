@@ -75,20 +75,6 @@ class GameView {
 
 
 
-        // DYNAMICALLY add Speaker Container
-        const oldSpeaker = document.querySelector('.speaker-container');
-        if (oldSpeaker) oldSpeaker.remove();
-
-    if (scene.speaker !== "") {
-        const speakerContainer = document.createElement('div');
-        speakerContainer.classList.add('speaker-container'); 
-        speakerContainer.textContent = scene.speaker;
-
-        container.insertBefore(speakerContainer, textContainer);
-
-    }
-
-    
 
         //Choices for MC moments 
         const showChoices = () => {
@@ -154,6 +140,30 @@ class GameView {
 
         const textElement = document.createElement('p');
         textContainer.appendChild(textElement);
+
+        
+// DYNAMICALLY add Speaker Container
+const oldSpeaker = document.querySelector('.speaker-container');
+if (oldSpeaker) oldSpeaker.remove();
+
+if (scene.speaker !== "") {
+    const speakerContainer = document.createElement('div');
+    speakerContainer.classList.add('speaker-container'); 
+    speakerContainer.textContent = scene.speaker;
+    
+    speakerContainer.style.opacity = '0';
+    speakerContainer.style.transition = 'opacity 0.5s ease';
+
+    textContainer.appendChild(speakerContainer);
+
+    setTimeout(() => {
+        speakerContainer.style.transition = 'opacity 0.5s ease';
+        speakerContainer.style.opacity = '1';
+    }, 700);
+}
+
+
+    
 
         //Flag to check for typing effect 
         if(scene.text && scene.text.length > 0) {

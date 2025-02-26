@@ -66,15 +66,15 @@ body, html {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: calc(9% + 150px);
-    background-color: black;
-    color: white;
-    border-radius: 50px;
-    font-size: 1.5rem;
-    padding: 0.5rem 2rem;
+    bottom: 73%;
+    margin-bottom: 0.7rem;
+    color: rgb(220, 200, 51);
+    font-size: 1.7rem;
+    padding: 0 3rem;
+    border-bottom: 2px solid rgb(220, 200, 51);;
     z-index: 21;
+    font-weight: bold;
 }
-
 
 /* Text Container */
 .text-container {
