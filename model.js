@@ -4,6 +4,7 @@ class GameModel {
         this.scenes = [];
         this.currentSceneIndex = 0;
         this.bgm = new Audio()
+        this.bgm.loop = true;
     }
 
     async loadScenes() {
@@ -30,6 +31,7 @@ class GameModel {
     playBgm(song) {
         this.bgm.src = song
         this.bgm.play();
+        this.bgm.loop = true;
     }
 }
 
