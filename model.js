@@ -3,6 +3,8 @@ class GameModel {
         this.state = 'title';
         this.scenes = [];
         this.currentSceneIndex = 0;
+        this.bgm = new Audio()
+        this.currentBgm = null
     }
 
     async loadScenes() {
@@ -24,6 +26,12 @@ class GameModel {
     setState(newState) {
         this.state = newState;
         console.log(`Game state changed to: ${this.state}`);
+    }
+
+    playBgm(song) {
+        this.bgm.src = song
+        this.bgm.play(); //testing
+        // this.bgm.pause();
     }
 }
 

@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.log('Continue clicked!');
         GameModel.setState('playing');
         GameView.closeMenu();
+        GameModel.playBgm('assets/sounds/bgm.mp3')
         GameView.renderScene();
     });
 
