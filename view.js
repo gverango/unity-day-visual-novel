@@ -73,6 +73,23 @@ class GameView {
         const textContainer = document.querySelector('.text-container');
         const container = document.querySelector('.container');
 
+
+
+        // DYNAMICALLY add Speaker Container
+        const oldSpeaker = document.querySelector('.speaker-container');
+        if (oldSpeaker) oldSpeaker.remove();
+
+    if (scene.speaker !== "") {
+        const speakerContainer = document.createElement('div');
+        speakerContainer.classList.add('speaker-container'); 
+        speakerContainer.textContent = scene.speaker;
+
+        container.insertBefore(speakerContainer, textContainer);
+
+    }
+
+    
+
         //Choices for MC moments 
         const showChoices = () => {
             if (scene.choices && scene.choices.length > 0) {
@@ -111,6 +128,7 @@ class GameView {
             }
         };
 
+
         // Clear prev scene
         textContainer.innerHTML = '';
         container.querySelectorAll('.character-sprite').forEach(element => element.remove());
@@ -127,7 +145,6 @@ class GameView {
         } else {
             container.style.backgroundImage = 'none';
         }
-        
 
         // Display scene text
         textContainer.style.display = 'block';

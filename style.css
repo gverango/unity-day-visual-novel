@@ -44,6 +44,37 @@ body, html {
     z-index: 10;
      /* ANIMATION: need help*/
 }
+/* Text Container */
+.text-container {
+    width: 80%;
+    margin: 1rem auto;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    height: 150px; /* Fixed height */ /*might remove but temporary fix to text box expanding upwards*/
+}
+
+.speaker-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: calc(9% + 150px);
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    z-index: 21;
+}
+
 
 /* Text Container */
 .text-container {
