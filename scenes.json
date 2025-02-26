@@ -3,7 +3,7 @@
         "id": 1,
         "background": "assets/backgrounds/grass.jpg",
         "speaker": "",
-        "text": "Spring arrives at CCSF with a warmth I haven’t felt in a long time. ",
+        "text": "Spring arrives at CCSF with a warmth I haven't felt in a long time. ",
         "next": [
             2
         ]
@@ -21,7 +21,7 @@
         "id": 3,
         "background": "assets/backgrounds/batmale_hall.jpg",
         "speaker": "",
-        "text": "Batmale Hall stands ahead, its doors as unassuming as ever. I’m visiting the ACRC today, for the free printing available to students, nothing particularly more.",
+        "text": "Batmale Hall stands ahead, its doors as unassuming as ever. I'm visiting the ACRC today, for the free printing available to students, nothing particularly more.",
         "next": [
             4
         ]
@@ -30,7 +30,7 @@
         "id": 4,
         "background": "assets/backgrounds/batmale_hall_staircase.jpg",
         "speaker": "",
-        "text": "I enter the lobby and turn into the staircase. What a weird building.. Third floor disguised as the First floor… This feels like a Batman’s secret hideout.",
+        "text": "I enter the lobby and turn into the staircase. What a weird building.. Third floor disguised as the First floor… This feels like a Batman's secret hideout.",
         "next": [
             5
         ]
@@ -39,7 +39,7 @@
         "id": 5,
         "background": "assets/backgrounds/acrc_outside.jpg",
         "speaker": "",
-        "text": "There’s a CS Tutor Squad hours posted near its entrance. Most students are hunched over their own laptops, ignoring the ancient desktops lining the walls.",
+        "text": "There's a CS Tutor Squad hours posted near its entrance. Most students are hunched over their own laptops, ignoring the ancient desktops lining the walls.",
         "next": [
             6
         ]
@@ -66,7 +66,7 @@
         "id": 8,
         "background": "assets/backgrounds/printer_closeup.jpg",
         "speaker": "",
-        "text": "I’m here to print out an essay for my English 1B class. I click one more button before the beast clunks to life. A few more seconds, and… a few hot and fresh pages slide out. It smells like baked bread.",
+        "text": "I'm here to print out an essay for my English 1B class. I click one more button before the beast clunks to life. A few more seconds, and… a few hot and fresh pages slide out. It smells like baked bread.",
         "next": [
             9
         ]
@@ -102,7 +102,7 @@
         "id": 12,
         "background": "assets/backgrounds/computer_room_dark.jpg",
         "speaker": "",
-        "text": "His desk faces another room. I peer in, only a whiteboard with faded words and scribbles 'General Meeting 2/21' but I don’t get the chance to inspect it before–",
+        "text": "His desk faces another room. I peer in, only a whiteboard with faded words and scribbles 'General Meeting 2/21' but I don't get the chance to inspect it before–",
         "next": [
             13
         ]
@@ -130,7 +130,7 @@
         "background": "assets/backgrounds/printer.jpg",
         "character": "assets/characters/rocky_shocked.png",
         "speaker": "",
-        "text": "Tall, frozen mid-motion. Horns curled like a helix in space. His expression is one of pure shock, like he’s been caught red-handed. A deer– no, a ram–in headlights.",
+        "text": "Tall, frozen mid-motion. Horns curled like a helix in space. His expression is one of pure shock, like he's been caught red-handed. A deer– no, a ram–in headlights.",
         "next": [
             16
         ]
@@ -150,7 +150,7 @@
         "background": "assets/backgrounds/printer.jpg",
         "character": "assets/characters/rocky_sad.png",
         "speaker": "",
-        "text": "I hesitate. He’s clearly embarrassed. His aura -9000. Not even the gacha gods can save him now. Do I step in ?",
+        "text": "I hesitate. He's clearly embarrassed. His aura -9000. Not even the gacha gods can save him now. Do I step in ?",
         "next": [
             18
         ]
@@ -177,7 +177,7 @@
         "background": "assets/backgrounds/printer.jpg",
         "character": "assets/characters/rocky_sad.png",
         "speaker": "",
-        "text": "I step closer, peeking over his shoulder at the printer screen. He still hasn’t said a word—maybe he’s too stunned to speak.",
+        "text": "I step closer, peeking over his shoulder at the printer screen. He still hasn't said a word—maybe he's too stunned to speak.",
         "next": [
             20
         ]
@@ -206,7 +206,7 @@
         "background": "assets/backgrounds/printer.jpg",
         "character": "assets/characters/rocky_nervous.png",
         "speaker": "",
-        "text": "Immediately noticing his diabolical mistake. I sigh… Should I tell him what’s wrong?",
+        "text": "Immediately noticing his diabolical mistake. I sigh… Should I tell him what's wrong?",
         "next": [
             23
         ]
@@ -265,7 +265,7 @@
         "background": "assets/backgrounds/printer.jpg",
         "character": "assets/characters/rocky_sad.png",
         "speaker": "",
-        "text": "Rocky looks at it like he’s just been personally betrayed.",
+        "text": "Rocky looks at it like he's just been personally betrayed.",
         "next": [
             29
         ]
@@ -351,7 +351,7 @@
         "id": 37,
         "background": "assets/backgrounds/unity_day_flyer.jpg",
         "speaker": "",
-        "text": "It piques my interest actually… and free food. It’s at Ram Plaza, by the Student Union building. It’ll be open for a couple of hours. Perfect timing, since I’ll be hungry once I’m let out of class. ",
+        "text": "It piques my interest actually… and free food. It's at Ram Plaza, by the Student Union building. It'll be open for a couple of hours. Perfect timing, since I'll be hungry once I'm let out of class. ",
         "next": [
             38
         ]
@@ -378,7 +378,7 @@
         "id": 40,
         "background": "assets/backgrounds/batmale_horizon.jpg",
         "speaker": "",
-        "text": "It's 11:59 am. Only a minute before class ends. My tummy grumbles. I haven’t eaten all day.. I take out the flyer. I’ll go check it out. If anything, I’ll stop by McDonalds. ",
+        "text": "It's 11:59 am. Only a minute before class ends. My tummy grumbles. I haven't eaten all day.. I take out the flyer. I'll go check it out. If anything, I'll stop by McDonalds. ",
         "next": [
             41
         ]
@@ -396,7 +396,7 @@
         "id": 42,
         "background": "assets/backgrounds/ram_plaza.jpg",
         "speaker": "",
-        "text": "Students crowd the bright, big ASCO tent. It’s probably where I should check in. I make my way over, and see Vaughn, ICC Vice President. He has on his usual fashionable jewelry and jorts. ",
+        "text": "Students crowd the bright, big ASCO tent. It's probably where I should check in. I make my way over, and see Vaughn, ICC Vice President. He has on his usual fashionable jewelry and jorts. ",
         "next": [
             43
         ]
@@ -416,7 +416,7 @@
         "background": "assets/backgrounds/asco_tent.jpg",
         "character": "assets/backgrounds/vaughn_normal.png",
         "speaker": "Vaughn",
-        "text": "Here’s a grid of all the clubs present today on that stamp card. Every club and resource center should have you stamp it after you visit. Five stamps and this Los Kuyas is yours.",
+        "text": "Here's a grid of all the clubs present today on that stamp card. Every club and resource center should have you stamp it after you visit. Five stamps and this Los Kuyas is yours.",
         "next": [
             45
         ]
@@ -538,7 +538,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/vena_talking.jpg",
         "speaker": "Vena",
-        "text": "“I’m Vena. I’m the President of this club and we would love to have you. This is my third semester here as a CE major. I love synths, dsp, C++, femb–”",
+        "text": "“I'm Vena. I'm the President of this club and we would love to have you. This is my third semester here as a CE major. I love synths, dsp, C++, femb–”",
         "next": [
             57
         ]
@@ -548,7 +548,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/vena_talking.jpg",
         "speaker": "",
-        "text": "I’m startled. This one is a yapper. Vena doesn’t stop herself from disclosing more. My mind is wandering. But my eyes meet the person dressed in pink lolita. ",
+        "text": "I'm startled. This one is a yapper. Vena doesn't stop herself from disclosing more. My mind is wandering. But my eyes meet the person dressed in pink lolita. ",
         "next": [
             58
         ]
@@ -568,7 +568,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/pink_normal.jpg",
         "speaker": "",
-        "text": "She pulls out an ink stick and motions for my card. I hand it over so I’m a fifth way to my free meal. Vena is unfazed and goes on to introduce everyone at the table”",
+        "text": "She pulls out an ink stick and motions for my card. I hand it over so I'm a fifth way to my free meal. Vena is unfazed and goes on to introduce everyone at the table”",
         "next": [
             60
         ]
@@ -578,7 +578,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/vena_talking.jpg",
         "speaker": "Vena",
-        "text": "You’re such a hater, Pink. This is my friend, even if she doesn’t think so… She’s super into pure maths and held coding workshops the past semester. She also decided to dress super cute today as part of the anime club.",
+        "text": "You're such a hater, Pink. This is my friend, even if she doesn't think so… She's super into pure maths and held coding workshops the past semester. She also decided to dress super cute today as part of the anime club.",
         "next": [
             61
         ]
@@ -636,7 +636,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/pink_talking.png",
         "speaker": "Pink",
-        "text": "I’;s time to sin 🙏",
+        "text": "I';s time to sin 🙏",
         "next": [
             67
         ]
@@ -646,7 +646,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/pink_normal.png",
         "speaker": "",
-        "text": "I’m confused, but before I could reason, someone in a zip up hoodie takes her place.",
+        "text": "I'm confused, but before I could reason, someone in a zip up hoodie takes her place.",
         "next": [
             68
         ]
@@ -656,7 +656,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/jacky_normal.png",
         "speaker": "Jacky",
-        "text": "Hi I’m Kevin",
+        "text": "Hi I'm Kevin",
         "next": [
             69
         ]
@@ -676,7 +676,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/jacky_normal.png",
         "speaker": "Jacky",
-        "text": "NO I’m Kevin!",
+        "text": "NO I'm Kevin!",
         "next": [
             71
         ]
@@ -696,7 +696,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/jacky_embarrassed.png",
         "speaker": "",
-        "text": "Wait, so, you don’t go here?",
+        "text": "Wait, so, you don't go here?",
         "next": [
             73
         ]
@@ -716,7 +716,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/jacky_normal.png",
         "speaker": "",
-        "text": "Kev–no, Jacky turtles into his hoodie. I’m guessing the tech HQ raids are where all the company stickers scattered on the table are from.”",
+        "text": "Kev–no, Jacky turtles into his hoodie. I'm guessing the tech HQ raids are where all the company stickers scattered on the table are from.”",
         "next": [
             75
         ]
@@ -763,7 +763,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/vena_talking.png",
         "speaker": "Vena",
-        "text": "Well, officially, there are two other officers, but we don’t do the top-do system at CS Club. With that being said, they're here today but are still engrossed in their own things right now.",
+        "text": "Well, officially, there are two other officers, but we don't do the top-do system at CS Club. With that being said, they're here today but are still engrossed in their own things right now.",
         "next": [
             80
         ]
@@ -773,7 +773,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/vena_sad.png",
         "speaker": "Vena",
-        "text": "Gev’s busy making a game with Anime Club and John’s cooking up his hedge fund in Minecraft… Both haven't showered in a week",
+        "text": "Gev's busy making a game with Anime Club and John's cooking up his hedge fund in Minecraft… Both haven't showered in a week",
         "next": [
             81
         ]

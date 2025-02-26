@@ -21,8 +21,6 @@ class GameModel {
         }
     }
 
-
-
     setState(newState) {
         this.state = newState;
         console.log(`Game state changed to: ${this.state}`);

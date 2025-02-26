@@ -37,12 +37,42 @@ class GameView {
         const finishText = scene.text;
         const textElement = document.querySelector('.text-container p')
         textElement.textContent = finishText;
+
+
+        const textContainer = document.querySelector('.text-container');
+        if (scene.choices && scene.choices.length > 0) {
+            const existingChoices = textContainer.querySelector('.choices-container');
+            if (existingChoices) existingChoices.remove();
+
+            const choicesContainer = document.createElement('div');
+            choicesContainer.classList.add('choices-container');
+            textContainer.appendChild(choicesContainer);
+
+            scene.choices.forEach((choice, i) => {
+                const choiceButton = document.createElement('button');
+                choiceButton.classList.add('choice-button');
+                choiceButton.textContent = `${i+1}) ${choice.text}`;
+                
+                choiceButton.addEventListener('click', () => {
+                    const nextSceneIndex = GameModel.scenes.findIndex(s => s.id === choice.next);
+                    if (nextSceneIndex !== -1) {
+                        GameModel.currentSceneIndex = nextSceneIndex;
+                        GameView.renderScene();
+                    } else {
+                        console.error("Next scene not found:", choice.next);
+                    }
+                });
+                
+                choicesContainer.appendChild(choiceButton);
+            });
         }
+    }
 
     static renderScene() {
         const scene = GameModel.getCurrentScene();
         const textContainer = document.querySelector('.text-container');
         const container = document.querySelector('.container');
+
 
 
         // DYNAMICALLY add Speaker Container
@@ -59,6 +89,46 @@ class GameView {
     }
 
     
+
+        //Choices for MC moments 
+        const showChoices = () => {
+            if (scene.choices && scene.choices.length > 0) {
+                // Remove any existing choices container first to prevent duplicates
+                const existingChoices = textContainer.querySelector('.choices-container');
+                if (existingChoices) existingChoices.remove();
+                
+                //create choices cotainer
+                const choicesContainer = document.createElement('div');
+                choicesContainer.classList.add('choices-container');
+                textContainer.appendChild(choicesContainer);
+                
+                scene.choices.forEach((choice, i) => {
+                    const choiceButton = document.createElement('button');
+                    choiceButton.classList.add('choice-button');
+                    choiceButton.textContent = `${i+1}) ${choice.text}`;
+                    
+                    choiceButton.addEventListener('click', () => {
+                        event.stopPropagation()
+                        const nextSceneId = choice.next;
+                        document.querySelectorAll('.choice-button').forEach(btn => {
+                            btn.disabled = true;
+                        });
+                        const nextSceneIndex = GameModel.scenes.findIndex(s => s.id === nextSceneId);
+                        GameModel.currentSceneIndex = nextSceneIndex;
+                        if (GameView.typeInterval) {
+                            clearInterval(GameView.typeInterval);
+                            GameView.typeInterval = null;
+                        }
+                        setTimeout(() => {
+                            GameView.renderScene();
+                        }, 700);
+                    });
+                    choicesContainer.appendChild(choiceButton);
+                });
+            }
+        };
+
+
         // Clear prev scene
         textContainer.innerHTML = '';
         container.querySelectorAll('.character-sprite').forEach(element => element.remove());
@@ -86,26 +156,33 @@ class GameView {
         textContainer.appendChild(textElement);
 
         //Flag to check for typing effect 
-        this.typingEffect = true;
-
-
-        //Typing effect interval
-        setTimeout(() => {
-            if (!this.typingEffect) return;
+        if(scene.text && scene.text.length > 0) {
+            this.typingEffect = true;
+            //Typing effect interval
+            setTimeout(() => {
+                if (!this.typingEffect) return;
+                textContainer.style.transition = 'opacity 0.5s ease';
+                textContainer.style.opacity = '1';
+                let index = 0;
+                const text = scene.text;
+                this.typeInterval = setInterval(() => {
+                    if (index < text.length) {
+                        textElement.textContent += text.charAt(index);
+                        index++;
+                    } else {
+                        clearInterval(this.typeInterval);
+                        this.typingEffect = false
+                        showChoices()
+                    }
+                }, 20);
+            }, 700);
+        }
+        else {
+            this.typingEffect = false;
             textContainer.style.transition = 'opacity 0.5s ease';
             textContainer.style.opacity = '1';
-            let index = 0;
-            const text = scene.text;
-            this.typeInterval = setInterval(() => {
-                if (index < text.length) {
-                    textElement.textContent += text.charAt(index);
-                    index++;
-                } else {
-                    clearInterval(this.typeInterval);
-                    this.typingEffect = false
-                }
-            }, 20); // Adjust speed by changing this value
-        }, 500);
+            showChoices();
+        }
 
         // Display character sprity
         if (scene.character) {
@@ -120,7 +197,7 @@ class GameView {
             characterImg.style.height = '1280px';
             characterImg.style.width = '425px';
             container.appendChild(characterImg);
-        }
+        }   
     }
 }
 

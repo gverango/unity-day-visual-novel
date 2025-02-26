@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         GameView.closeSettings();
     });
 
-
     // Exit Button → Return to Title
     document.querySelectorAll('.exit-button').forEach(button => {
         button.addEventListener('click', () => {
@@ -37,6 +36,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
     //Text Container disguised as continue button for next scene and text
     document.querySelector('.text-container').addEventListener('click', () => {
+        const currentScene = GameModel.getCurrentScene();
+
         if (transitioning) return;
         transitioning = true;
         if(GameView.typingEffect) {
@@ -45,21 +46,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
         
-        const currentScene = GameModel.getCurrentScene();
         if (currentScene.choices) {
             transitioning = false;
             return;
         }
 
-        
         if (currentScene.next && currentScene.next.length !== 0) {
-            const nextSceneId = currentScene.next[0]; //findIndex soo that scene progression aren't necessarily sequential
+            const nextSceneId = currentScene.next[0];
             const nextSceneIndex = GameModel.scenes.findIndex(scene => scene.id === nextSceneId);
             if (nextSceneIndex !== -1) {
                 GameModel.currentSceneIndex = nextSceneIndex;
                 GameView.renderScene();
-            } else {
-                console.error('next scene id not found:', nextSceneId);
             }
         }
         
@@ -69,6 +66,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
     //Keyboard interface to progees scenes
     document.addEventListener('keydown', (event) => {
+        const currentScene = GameModel.getCurrentScene();
         if (transitioning) return;
         transitioning = true;
         if (event.key === ' ' || event.key === 'Enter') {
@@ -78,7 +76,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 return;
             }
     
-            const currentScene = GameModel.getCurrentScene();
             if (currentScene.choices) {
                 transitioning = false;
                 return;
