@@ -148,7 +148,7 @@
     {
         "id": 17,
         "background": "assets/backgrounds/printer.jpg",
-        "character": "assets/characters/rocky_sad.png",
+        "character": "assets/characters/rocky_worried.png",
         "speaker": "",
         "text": "I hesitate. He's clearly embarrassed. His aura -9000. Not even the gacha gods can save him now. Do I step in ?",
         "next": [
@@ -158,7 +158,7 @@
     {
         "id": 18,
         "background": "assets/backgrounds/printer.jpg",
-        "character": "assets/characters/rocky_sad.png",
+        "character": "assets/characters/rocky_worried.png",
         "speaker": "",
         "text": "",
         "choices": [
@@ -175,7 +175,7 @@
     {
         "id": 19,
         "background": "assets/backgrounds/printer.jpg",
-        "character": "assets/characters/rocky_sad.png",
+        "character": "assets/characters/rocky_straight.png",
         "speaker": "",
         "text": "I step closer, peeking over his shoulder at the printer screen. He still hasn't said a word—maybe he's too stunned to speak.",
         "next": [
@@ -204,7 +204,7 @@
     {
         "id": 22,
         "background": "assets/backgrounds/printer.jpg",
-        "character": "assets/characters/rocky_nervous.png",
+        "character": "assets/characters/rocky_worried.png",
         "speaker": "",
         "text": "Immediately noticing his diabolical mistake. I sigh… Should I tell him what's wrong?",
         "next": [
@@ -214,7 +214,7 @@
     {
         "id": 23,
         "background": "assets/backgrounds/printer.jpg",
-        "character": "assets/characters/rocky_nervous.png",
+        "character": "assets/characters/rocky_worried.png",
         "speaker": "",
         "text": "Rubbing the back of my neck. 'Sooo, the problem is... that you're trying to print a thousand pages???'",
         "next": [
@@ -224,7 +224,7 @@
     {
         "id": 24,
         "background": "assets/backgrounds/printer.jpg",
-        "character": "assets/characters/rocky_nervous.png",
+        "character": "assets/characters/straight.png",
         "speaker": "Rocky",
         "text": "...Yeah?",
         "next": [
@@ -234,7 +234,7 @@
     {
         "id": 25,
         "background": "assets/backgrounds/printer.jpg",
-        "character": "assets/characters/rocky_normal.png",
+        "character": "assets/characters/rocky_head_empty.png",
         "speaker": "",
         "text": "I stare at him. He stares back.",
         "next": [
@@ -244,7 +244,7 @@
     {
         "id": 26,
         "background": "assets/backgrounds/printer.jpg",
-        "character": "assets/characters/rocky_normal.png",
+        "character": "assets/characters/rocky_head_empty.png",
         "speaker": "",
         "text": "It takes me a second to process how utterly unfazed he is. Like he genuinely expected the printer to handle a mountain of color pages without a hitch.",
         "next": [
@@ -263,7 +263,7 @@
     {
         "id": 28,
         "background": "assets/backgrounds/printer.jpg",
-        "character": "assets/characters/rocky_sad.png",
+        "character": "assets/characters/rocky_worried.png",
         "speaker": "",
         "text": "Rocky looks at it like he's just been personally betrayed.",
         "next": [
@@ -273,7 +273,7 @@
     {
         "id": 29,
         "background": "assets/backgrounds/printer.jpg",
-        "character": "assets/characters/rocky_shy.png",
+        "character": "assets/characters/rocky_blushy.png",
         "speaker": "",
         "text": "He has a red paper in his hand, kind of crumpled up now. Rocky hands it to me and quickly runs out the room. Bros embarrassed.",
         "next": [
@@ -301,7 +301,7 @@
     {
         "id": 32,
         "background": "assets/backgrounds/printer.jpg",
-        "character": "assets/characters/rocky_nervous.png",
+        "character": "assets/characters/rocky_worried.png",
         "speaker": "",
         "text": "The older gentleman leans over, inspecting the printer. Rocky, still standing there, shifts awkwardly from foot to foot.",
         "next": [
@@ -321,7 +321,7 @@
     {
         "id": 34,
         "background": "assets/backgrounds/printer.jpg",
-        "character": "assets/characters/rocky_sad.png",
+        "character": "assets/characters/rocky_worried.png",
         "speaker": "",
         "text": "I stifle a grin and turn the page.",
         "next": [
@@ -331,7 +331,7 @@
     {
         "id": 35,
         "background": "assets/backgrounds/printer.jpg",
-        "character": "assets/characters/rocky_shy.png",
+        "character": "assets/characters/rocky_straight.png",
         "speaker": "",
         "text": "Rocky turns defeated and quickly exits the room. He leaves a crumpled red flyer on the printer. ",
         "next": [
@@ -433,7 +433,7 @@
     },
     {
         "id": 46,
-        "background": "assets/backgrounds/unity_day_layout.jpg",
+        "background": "assets/backgrounds/asco_tent.jpg",
         "speaker": "",
         "text": "I scan the list. Two clubs stand out.",
         "next": [
@@ -442,7 +442,7 @@
     },
     {
         "id": 47,
-        "background": "assets/backgrounds/unity_day_layout.jpg",
+        "background": "assets/backgrounds/asco_tent.jpg",
         "speaker": "",
         "text": "CS Club, Anime Club",
         "next": [
@@ -468,7 +468,7 @@
     {
         "id": 49,
         "background": "assets/backgrounds/asco_tent.jpg",
-        "character": "assets/characters/vaughn_nomal.jpg",
+        "character": "assets/characters/vaughn_nomal.png",
         "speaker": "",
         "text": "I would like to check out the CS Club, could you point me to them?",
         "next": [
@@ -478,7 +478,7 @@
     {
         "id": 50,
         "background": "assets/backgrounds/asco_tent.jpg",
-        "character": "assets/characters/vaughn_smile.jpg",
+        "character": "assets/characters/vaughn_smile.png",
         "text": "Vaughn smiles, knowingly and amused, he must have a soft spot for them. He points towards the Student Union Building. ",
         "next": [
             51
@@ -496,7 +496,7 @@
     {
         "id": 52,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/vena_normal.jpg",
+        "character": "assets/characters/vena_normal.png",
         "speaker": "",
         "text": "I make eye contact with one of them.",
         "next": [
@@ -506,9 +506,9 @@
     {
         "id": 53,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/vena_talking.jpg",
+        "character": "assets/characters/vena_talking.png",
         "speaker": "Vena",
-        "text": "“Welcome ! Welcome! Are you mayhaps interested in Computer Science-ing?”",
+        "text": "Welcome ! Welcome! Are you mayhaps interested in Computer Science-ing?”",
         "next": [
             54
         ]
@@ -516,7 +516,7 @@
     {
         "id": 54,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/vena_talking.jpg",
+        "character": "assets/characters/vena_talking.png",
         "speaker": "",
         "text": "Her greeting startles me a bit, like someone turning on the lights in a dark room. Her eyes brighten.",
         "next": [
@@ -526,9 +526,9 @@
     {
         "id": 55,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/vena_normal.jpg",
+        "character": "assets/characters/vena_normal.png",
         "speaker": "Vena",
-        "text": "“Before I answer what we do, I must insist on introducing who we are.”",
+        "text": "Before I answer what we do, I must insist on introducing who we are.”",
         "next": [
             56
         ]
@@ -536,9 +536,9 @@
     {
         "id": 56,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/vena_talking.jpg",
+        "character": "assets/characters/vena_talking.png",
         "speaker": "Vena",
-        "text": "“I'm Vena. I'm the President of this club and we would love to have you. This is my third semester here as a CE major. I love synths, dsp, C++, femb–”",
+        "text": "I'm Vena. I'm the President of this club and we would love to have you. This is my third semester here as a CE major. I love synths, dsp, C++, femb–”",
         "next": [
             57
         ]
@@ -546,7 +546,7 @@
     {
         "id": 57,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/vena_talking.jpg",
+        "character": "assets/characters/vena_talking.png",
         "speaker": "",
         "text": "I'm startled. This one is a yapper. Vena doesn't stop herself from disclosing more. My mind is wandering. But my eyes meet the person dressed in pink lolita. ",
         "next": [
@@ -556,7 +556,7 @@
     {
         "id": 58,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/pink_speaking.jpg",
+        "character": "assets/characters/pink_judging.png",
         "speaker": "Pink",
         "text": "V-Vena clearly this person is waiting for a stamp, not to hear you yap",
         "next": [
@@ -566,7 +566,7 @@
     {
         "id": 59,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/pink_normal.jpg",
+        "character": "assets/characters/pink_normal.png",
         "speaker": "",
         "text": "She pulls out an ink stick and motions for my card. I hand it over so I'm a fifth way to my free meal. Vena is unfazed and goes on to introduce everyone at the table”",
         "next": [
@@ -576,7 +576,7 @@
     {
         "id": 60,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/vena_talking.jpg",
+        "character": "assets/characters/vena_talking.png",
         "speaker": "Vena",
         "text": "You're such a hater, Pink. This is my friend, even if she doesn't think so… She's super into pure maths and held coding workshops the past semester. She also decided to dress super cute today as part of the anime club.",
         "next": [
@@ -587,7 +587,7 @@
         "id": 61,
         "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
-        "text": "",
+        "text": "Vena motions to the table beside them. Oh, Manga and Anime Club is right next door.",
         "next": [
             62
         ]
@@ -595,9 +595,9 @@
     {
         "id": 62,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/ganyu.png",
+        "character": "assets/characters/the_creature.png",
         "speaker": "",
-        "text": "Vena motions to the table beside them. Oh, Manga and Anime Club is right next door, I make eye contact with a blue creature, but not long enough to decide if it's cute or cursed.",
+        "text": "I make eye contact with a blue creature, but not long enough to decide if it's cute or cursed.",
         "next": [
             63
         ]
@@ -626,7 +626,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/pink_normal.png",
         "speaker": "",
-        "text": "Pink is still for a moment, before motioning a thank you and darting behind the tables where I could barely see. ,",
+        "text": "Pink is still for a moment, before motioning a thank you and darting behind the tables where I could barely see.",
         "next": [
             66
         ]
@@ -634,9 +634,9 @@
     {
         "id": 66,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/pink_talking.png",
+        "character": "assets/characters/pink_judging.png",
         "speaker": "Pink",
-        "text": "I';s time to sin 🙏",
+        "text": "It's time to sin 🙏",
         "next": [
             67
         ]
@@ -686,7 +686,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/jacky_embarrassed.png",
         "speaker": "Vena",
-        "text": "“This is Jacky, our Olympian level marathon runner. He is also super smart and is doing Data Science-y stuff at UPenn. At the club, he goes to hackathons, wins prizes, and raids tech HQs of all their Yerba Mates.”",
+        "text": "This is Jacky, our Olympian level marathon runner. He is also super smart and is doing Data Science-y stuff at UPenn. At the club, he goes to hackathons, wins prizes, and raids tech HQs of all their Yerba Mates.”",
         "next": [
             72
         ]
@@ -716,7 +716,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/jacky_normal.png",
         "speaker": "",
-        "text": "Kev–no, Jacky turtles into his hoodie. I'm guessing the tech HQ raids are where all the company stickers scattered on the table are from.”",
+        "text": "Kev–no, Jacky turtles into his hoodie. I'm guessing the tech HQ raids are where all the company stickers scattered on the table are from.",
         "next": [
             75
         ]
@@ -725,7 +725,7 @@
         "id": 75,
         "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
-        "text": "“Hmm, wow you guys do a lot! But where do you guys meet and where are your other officers, Vena?””",
+        "text": "Hmm, wow you guys do a lot! But where do you guys meet and where are your other officers, Vena?",
         "next": [
             76
         ]
@@ -735,7 +735,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/vena_talking.png",
         "speaker": "Vena",
-        "text": "“We have our general meetings every Friday, 2:30 to 5:00 pm in Batmale 301, the ACRC!”",
+        "text": "We have our general meetings every Friday, 2:30 to 5:00 pm in Batmale 301, the ACRC!",
         "next": [
             77
         ]
@@ -771,7 +771,7 @@
     {
         "id": 80,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/vena_sad.png",
+        "character": "assets/characters/vena_unnerved.png",
         "speaker": "Vena",
         "text": "Gev's busy making a game with Anime Club and John's cooking up his hedge fund in Minecraft… Both haven't showered in a week",
         "next": [
@@ -833,12 +833,12 @@
         "character": "assets/characters/vena_talking.png",
         "speaker": "Vena",
         "text": "Ohhh {name} !Thank you so much for stopping by, pleeease join our Discord where more fun shit happens.",
-        "next": []
+        "next": [111]
     },
     {
         "id": 87,
         "background": "assets/backgrounds/student_union.jpg",
-        "speaker": "",
+        "speaker": "Y/N",
         "text": "I would like to check out the Anime Club, could you point me to them?",
         "next": [
             88
@@ -848,6 +848,7 @@
         "id": 88,
         "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
+        "character": "assets/characters/vaughn_normal.png",
         "text": "Vaughn is surprised, but smiles. He points towards the Student Union Building.",
         "next": [89]
     },
@@ -855,13 +856,14 @@
         "id": 89,
         "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
-        "text": "I walk over and see it. A table beside a huge red tent. On the table sits a blue creature… who peers into my soul",
+        "text": "I walk over and see it. A table beside a huge red tent. On the table sits a blue creature… who peers into my soul???",
         "next": [90]
     },
     {
         "id": 90,
         "background": "assets/backgrounds/student_union.jpg",
-        "speaker": "",
+        "character": "assets/characters/the_creature.png",
+        "speaker": "Ganyu",
         "text": "...",
         "next": [91]
     },
@@ -883,6 +885,7 @@
         "id": 93,
         "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
+        "character": "assets/characters/pink_normal.png",
         "text": "Oh, the CS Club is right next door, I make eye contact with a person in Pink lolita fashion who looks like she belongs to the table in front of me instead.",
         "next": [94]
     },
@@ -890,12 +893,14 @@
         "id": 94,
         "background": "assets/backgrounds/student_union.jpg",
         "speaker": "Pink",
+        "character": "assets/characters/pink_judging.png",
         "text": "Moids are the downfall of humanity. I hate people. Ugh, yuck. People. I wanna go home.",
         "next": [95]
     },
     {
         "id": 95,
         "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/freddie_normal.png",
         "speaker": "Freddie",
         "text": "Hey come join us. We are anime and manga club!",
         "next": [96]
@@ -910,6 +915,7 @@
     {
         "id": 97,
         "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/mish_normal.png",
         "speaker": "Michelle",
         "text": "Hi new person. Welcome. please introduce yourself and your favorite animes",
         "next": [98]
@@ -925,7 +931,7 @@
         "id": 99,
         "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
-        "text": "Oooh uhh im uhh [name]. I like leveling solo. I mean solo leveling, the reincarnated in another world trend, and I play a lot of anime gacha games.",
+        "text": "Oooh uhh im uhh Y/N. I like leveling solo. I mean solo leveling, the reincarnated in another world trend, and I play a lot of anime gacha games.",
         "next": [100]
     },
     {
@@ -938,6 +944,7 @@
     {
         "id": 101,
         "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/citrine_talking.png",
         "speaker": "",
         "text": "!!!",
         "next": [102]
@@ -945,6 +952,7 @@
     {
         "id": 102,
         "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/citrine_normal.png",
         "speaker": "",
         "text": "What tremendous ki. How was I not able to detect this? Standing before me… holding a cute bright blue plushie as if she was there the entire time. Who can this possibly be—.",
         "next": [103]
@@ -952,6 +960,7 @@
     {
         "id": 103,
         "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/mish_normal.png",
         "speaker": "Michelle",
         "text": "Citriiiiinnnne",
         "next": [104]
@@ -959,6 +968,7 @@
     {
         "id": 104,
         "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/citrine_talking.png",
         "speaker": "Citrine",
         "text": "Helloooo",
         "next": [105]
@@ -966,6 +976,7 @@
     {
         "id": 105,
         "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/pink_judging.png",
         "speaker": "Pink",
         "text": "Fucking weebs. I think I'm gonna throw up. Fuck this shit.",
         "next": [106]
@@ -980,6 +991,7 @@
     {
         "id": 107,
         "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/freddie_normal.png",
         "speaker": "Freddie",
         "text": "Hey come check out our game. It's a Visual Novel we made in collab with CS Club!",
         "next": [108]
@@ -987,6 +999,7 @@
     {
         "id": 108,
         "background": "assets/backgrounds/student_union.jpg",
+        "character":"assets/characters/pink_judging.png",
         "speaker": "Pink",
         "text": "This is diabolical",
         "next": [109]
