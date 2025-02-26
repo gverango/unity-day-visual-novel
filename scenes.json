@@ -843,5 +843,180 @@
         "next": [
             88
         ]
+    },
+    {
+        "id": 88,
+        "background": "",
+        "speaker": "",
+        "text": "Vaughn is surprised, but smiles. He points towards the Student Union Building.",
+        "next": [89]
+    },
+    {
+        "id": 89,
+        "background": "",
+        "speaker": "",
+        "text": "I walk over and see it. A table beside a huge red tent. On the table sits a blue creature… who peers into my soul",
+        "next": [90]
+    },
+    {
+        "id": 90,
+        "background": "",
+        "speaker": "",
+        "text": "...",
+        "next": [91]
+    },
+    {
+        "id": 91,
+        "background": "",
+        "speaker": "",
+        "text": "Before I realize it, cosplayers swarm me. Are they the club members?",
+        "next": [92]
+    },
+    {
+        "id": 92,
+        "background": "",
+        "speaker": "",
+        "text": "One appears as Tanjiro from Demon Slayer and one dressed as Rin from the Fate/Stay series.",
+        "next": [93]
+    },
+    {
+        "id": 93,
+        "background": "",
+        "speaker": "",
+        "text": "Oh, the CS Club is right next door, I make eye contact with a person in Pink lolita fashion who looks like she belongs to the table in front of me instead.",
+        "next": [94]
+    },
+    {
+        "id": 94,
+        "background": "",
+        "speaker": "Pink",
+        "text": "Moids are the downfall of humanity. I hate people. Ugh, yuck. People. I wanna go home.",
+        "next": [95]
+    },
+    {
+        "id": 95,
+        "background": "",
+        "speaker": "Freddie",
+        "text": "Hey come join us. We are anime and manga club!",
+        "next": [96]
+    },
+    {
+        "id": 96,
+        "background": "",
+        "speaker": "",
+        "text": "I sense overwhelming power from this club as I stood there trembling at the hidden aura stored within them similar to the students in the ACRC.",
+        "next": [97]
+    },
+    {
+        "id": 97,
+        "background": "",
+        "speaker": "Michelle",
+        "text": "Hi new person. Welcome. please introduce yourself and your favorite animes",
+        "next": [98]
+    },
+    {
+        "id": 98,
+        "background": "",
+        "speaker": "",
+        "text": "I find myself unable to leave. Have I been trapped by their domain expansion or is it my domain expansion that has trapped them?? ",
+        "next": [99]
+    },
+    {
+        "id": 99,
+        "background": "",
+        "speaker": "",
+        "text": "Oooh uhh im uhh [name]. I like leveling solo. I mean solo leveling, the reincarnated in another world trend, and I play a lot of anime gacha games.",
+        "next": [100]
+    },
+    {
+        "id": 100,
+        "background": "",
+        "speaker": "Citrine",
+        "text": "Are you another genshin enjoyer?",
+        "next": [101]
+    },
+    {
+        "id": 101,
+        "background": "",
+        "speaker": "",
+        "text": "!!!",
+        "next": [102]
+    },
+    {
+        "id": 102,
+        "background": "",
+        "speaker": "",
+        "text": "What tremendous ki. How was I not able to detect this? Standing before me… holding a cute bright blue plushie as if she was there the entire time. Who can this possibly be—.",
+        "next": [103]
+    },
+    {
+        "id": 103,
+        "background": "",
+        "speaker": "Michelle",
+        "text": "Citriiiiinnnne",
+        "next": [104]
+    },
+    {
+        "id": 104,
+        "background": "",
+        "speaker": "Citrine",
+        "text": "Helloooo",
+        "next": [105]
+    },
+    {
+        "id": 105,
+        "background": "",
+        "speaker": "Pink",
+        "text": "Fucking weebs. I think I'm gonna throw up. Fuck this shit.",
+        "next": [106]
+    },
+    {
+        "id": 106,
+        "background": "",
+        "speaker": "",
+        "text": "Omg the language thats only recognized by the greatest of gods.. This is stronger than one punch man in his prime. Do I even belong at this level?",
+        "next": [107]
+    },
+    {
+        "id": 107,
+        "background": "",
+        "speaker": "Freddie",
+        "text": "Hey come check out our game. It's a Visual Novel we made in collab with CS Club!",
+        "next": [108]
+    },
+    {
+        "id": 108,
+        "background": "",
+        "speaker": "Pink",
+        "text": "This is diabolical",
+        "next": [109]
+    },
+    {
+        "id": 109,
+        "background": "",
+        "speaker": "",
+        "text": "I click to start the game…. This feels awfully familiar.. The ACRC.. The printer...Uggh im getting dizzy ",
+        "next": [110]
+    },
+    {
+        "id": 110,
+        "background": "",
+        "speaker": "",
+        "text": "Maybe I'm just seeing things…..….. They are deep in some hear me out cake discussion… Nows my chance to secretly walk away.",
+        "next": [111]
+    },
+    {
+        "id": 111,
+        "background": "",
+        "speaker": "",
+        "text": "After meeting that interesting bunch of characters. I should probably check out the other tables and resource centers.",
+        "next": [112]
+    },
+    {
+        "id": 112,
+        "background": "",
+        "speaker": "",
+        "text": "Phew~~ I felt like I just encountered the Ginyu force at their full power. I hope I still got some senzu beans.",
+        "next": [113]
     }
 ]
