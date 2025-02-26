@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await GameModel.loadScenes();  // Load scenes before interactions
     GameView.showTitleScreen();
     let transitioning = false;
-
+/*
     // Title Button → Show Menu
     document.getElementById('title-button').addEventListener('click', () => {
         GameModel.setState('menu');
@@ -19,6 +19,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         GameView.closeMenu();
         GameModel.playBgm('assets/sounds/bgm.mp3')
         GameView.renderScene();
+    });
+    */
+
+    document.getElementById('title-button').addEventListener('click', () => {
+        console.log('Title clicked!');
+        GameModel.setState('playing');
+        GameView.closeMenu();
+        GameModel.playBgm('assets/sounds/bgm.mp3')
+        GameView.renderScene();
+        document.getElementById('title-button').style.display = 'none';
     });
 
     // Close Button!

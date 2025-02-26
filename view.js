@@ -10,7 +10,7 @@ class GameView {
         document.querySelector('.menu-buttons').style.display = 'none';
         document.querySelector('.settings-icon').style.display = 'none';
         document.querySelector('.text-container').style.display = 'none';
-        document.querySelector('.container').style.backgroundImage = 'none'; // FOR NOW: RESET BACKGROUND bc we don't have a title screen background!!!
+        document.querySelector('.container').style.backgroundImage = 'assets/backgrounds/title_screen.png';
     }
 
     static showMenu() {
@@ -117,7 +117,19 @@ class GameView {
 
         // Clear prev scene
         textContainer.innerHTML = '';
-        container.querySelectorAll('.character-sprite').forEach(element => element.remove());
+        const existingCharacter = container.querySelector('.character-sprite');
+        if (existingCharacter) {
+            existingCharacter.style.transition = 'opacity 0.5s ease';
+            existingCharacter.style.opacity = '0';
+
+            setTimeout(() => {
+                existingCharacter.remove();//after fadeout,
+                addNewCharacter();
+            }, 500);//idk if i got the timing right on this one
+        } else {
+        addNewCharacter(); 
+        }
+
 
         // Set background
         if (scene.background) {
@@ -195,19 +207,29 @@ if (scene.speaker !== "") {
         }
 
         // Display character sprity
-        if (scene.character) {
-            const characterImg = document.createElement('img');
-            characterImg.src = scene.character;
-            characterImg.alt = 'Character';
-            characterImg.classList.add('character-sprite');
-            characterImg.style.position = 'absolute';
-            characterImg.style.bottom = '34%'; // position Y of sprite is not in relation to the container
-            characterImg.style.left = '50%';
-            characterImg.style.transform = 'translateX(-50%)';
-            characterImg.style.height = '1280px';
-            characterImg.style.width = '425px';
-            container.appendChild(characterImg);
-        }   
+        function addNewCharacter() {
+            if (scene.character) {
+                const characterImg = document.createElement('img');
+                characterImg.src = scene.character;
+                characterImg.alt = 'Character';
+                characterImg.classList.add('character-sprite');
+                characterImg.style.position = 'absolute';
+                characterImg.style.bottom = '34%'; 
+                characterImg.style.left = '50%';
+                characterImg.style.transform = 'translateX(-50%)';
+                characterImg.style.height = '1280px';
+                characterImg.style.width = '425px';
+                characterImg.style.opacity = '0';
+        
+                container.appendChild(characterImg);
+        
+                setTimeout(() => {
+                    characterImg.style.transition = 'opacity 0.5s ease';
+                    characterImg.style.opacity = '1';
+                }, 100);
+            }
+        }
+     
     }
 }
 
