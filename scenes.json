@@ -404,7 +404,7 @@
     {
         "id": 43,
         "background": "assets/backgrounds/asco_tent.jpg",
-        "character": "assets/backgrounds/vaughn_normal.png",
+        "character": "assets/characters/vaughn_normal.png",
         "speaker": "",
         "text": "We make eye contact and he hands me a card.",
         "next": [
@@ -414,7 +414,7 @@
     {
         "id": 44,
         "background": "assets/backgrounds/asco_tent.jpg",
-        "character": "assets/backgrounds/vaughn_normal.png",
+        "character": "assets/characters/vaughn_normal.png",
         "speaker": "Vaughn",
         "text": "Here's a grid of all the clubs present today on that stamp card. Every club and resource center should have you stamp it after you visit. Five stamps and this Los Kuyas is yours.",
         "next": [
@@ -424,7 +424,7 @@
     {
         "id": 45,
         "background": "assets/backgrounds/asco_tent.jpg",
-        "character": "assets/backgrounds/vaughn_smile.png",
+        "character": "assets/characters/vaughn_smile.png",
         "speaker": "",
         "text": "He holds up a taco bowl and waves it coyly. My stomach grumbles.",
         "next": [
@@ -468,7 +468,7 @@
     {
         "id": 49,
         "background": "assets/backgrounds/asco_tent.jpg",
-        "character": "assets/characters/vaughn_nomal.png",
+        "character": "assets/characters/vaughn_normal.png",
         "speaker": "",
         "text": "I would like to check out the CS Club, could you point me to them?",
         "next": [
