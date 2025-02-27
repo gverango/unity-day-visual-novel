@@ -224,7 +224,7 @@
     {
         "id": 24,
         "background": "assets/backgrounds/printer.jpg",
-        "character": "assets/characters/straight.png",
+        "character": "assets/characters/rocky_straight.png",
         "speaker": "Rocky",
         "text": "...Yeah?",
         "next": [
