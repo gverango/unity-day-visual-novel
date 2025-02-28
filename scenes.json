@@ -102,7 +102,7 @@
         "id": 12,
         "background": "assets/backgrounds/computer_room_dark.jpg",
         "speaker": "",
-        "text": "His desk faces another room. I peer in, only a whiteboard with faded words and scribbles 'General Meeting 2/21' but I don't get the chance to inspect it before–",
+        "text": "His desk faces another room. I peer in, only a whiteboard with faded words and scribbles 'General Meeting 2/21' but I don't get the chance to inspect it before--",
         "next": [
             13
         ]
@@ -716,7 +716,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/jacky_normal.png",
         "speaker": "",
-        "text": "Kev–no, Jacky turtles into his hoodie. I'm guessing the tech HQ raids are where all the company stickers scattered on the table are from.",
+        "text": "Kev-no, Jacky turtles into his hoodie. I'm guessing the tech HQ raids are where all the company stickers scattered on the table are from.",
         "next": [
             75
         ]
@@ -833,203 +833,330 @@
         "character": "assets/characters/vena_talking.png",
         "speaker": "Vena",
         "text": "Ohhh {name} !Thank you so much for stopping by, pleeease join our Discord where more fun shit happens.",
-        "next": [111]
+        "next": [87]
     },
     {
         "id": 87,
         "background": "assets/backgrounds/student_union.jpg",
-        "speaker": "Y/N",
-        "text": "I would like to check out the Anime Club, could you point me to them?",
-        "next": [
-            88
-        ]
+        "character": "assets/characters/vena_talking.png",
+        "speaker": "Vena",
+        "text": "And also our club advisor is the one and only Jonathon Potter! :) He's the department chair and teaches Assemly in CS 270! He is --",
+        "next": [88]
     },
     {
         "id": 88,
         "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
-        "character": "assets/characters/vaughn_normal.png",
-        "text": "Vaughn is surprised, but smiles. He points towards the Student Union Building.",
+        "text": "Omg Vena wont stop talking.. I have no idea who Potter is. Maybe I should since I am interested in CS.",
         "next": [89]
     },
     {
         "id": 89,
         "background": "assets/backgrounds/student_union.jpg",
+        "character": "",
         "speaker": "",
-        "text": "I walk over and see it. A table beside a huge red tent. On the table sits a blue creature… who peers into my soul???",
+        "text": "I take out my phone to look him up....",
+        "next": [90]
+    },
+    {
+        "id": 89,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/jonathan.jpg",
+        "speaker": "",
+        "text": "From the distance I hear a loud welcoming voice. As a picture of Prof Potter loads in.",
+        "next": [90]
+    },
+    {
+        "id": 89,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/jonathan.jpg",
+        "speaker": "Moof",
+        "text": "Chat, I love assembly. You should totally take assembly with us.",
         "next": [90]
     },
     {
         "id": 90,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/the_creature.png",
-        "speaker": "Ganyu",
-        "text": "...",
-        "next": [91]
+        "character": "assets/characters/jonathan.jpg",
+        "speaker": "",
+        "text": "Oooh thats Jonathan Potter?? I try to remember where I recognize him, but it feels like its locked into the eternal abyss. Not even batman can beat the memory out of me.",
+        "next": [124]
     },
     {
         "id": 91,
         "background": "assets/backgrounds/student_union.jpg",
-        "speaker": "",
-        "text": "Before I realize it, cosplayers swarm me. Are they the club members?",
-        "next": [92]
+        "speaker": "Y/N",
+        "text": "I would like to check out the Anime Club, could you point me to them?",
+        "next": [
+            92
+        ]
     },
     {
         "id": 92,
         "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
-        "text": "One appears as Tanjiro from Demon Slayer and one dressed as Rin from the Fate/Stay series.",
+        "character": "assets/characters/vaughn_normal.png",
+        "text": "Vaughn is surprised, but smiles. He points towards the Student Union Building.",
         "next": [93]
     },
     {
         "id": 93,
         "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
-        "character": "assets/characters/pink_normal.png",
-        "text": "Oh, the CS Club is right next door, I make eye contact with a person in Pink lolita fashion who looks like she belongs to the table in front of me instead.",
+        "text": "I walk over and see it. A table beside a huge red tent. On the table sits a blue creature… who peers into my soul???",
         "next": [94]
     },
     {
         "id": 94,
         "background": "assets/backgrounds/student_union.jpg",
-        "speaker": "Pink",
-        "character": "assets/characters/pink_judging.png",
-        "text": "Moids are the downfall of humanity. I hate people. Ugh, yuck. People. I wanna go home.",
+        "character": "assets/characters/the_creature.png",
+        "speaker": "Ganyu",
+        "text": "...",
         "next": [95]
     },
     {
         "id": 95,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/freddie_normal.png",
-        "speaker": "Freddie",
-        "text": "Hey come join us. We are anime and manga club!",
+        "speaker": "",
+        "text": "Before I realize it, cosplayers swarm me. Are they the club members?",
         "next": [96]
     },
     {
         "id": 96,
         "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
-        "text": "I sense overwhelming power from this club as I stood there trembling at the hidden aura stored within them similar to the students in the ACRC.",
+        "text": "One appears as Tanjiro from Demon Slayer and one dressed as Rin from the Fate/Stay series.",
         "next": [97]
     },
     {
         "id": 97,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/mish_normal.png",
-        "speaker": "Michelle",
-        "text": "Hi new person. Welcome. please introduce yourself and your favorite animes",
+        "speaker": "",
+        "character": "assets/characters/pink_normal.png",
+        "text": "Oh, the CS Club is right next door, I make eye contact with a person in Pink lolita fashion who looks like she belongs to the table in front of me instead.",
         "next": [98]
     },
     {
         "id": 98,
         "background": "assets/backgrounds/student_union.jpg",
-        "speaker": "",
-        "text": "I find myself unable to leave. Have I been trapped by their domain expansion or is it my domain expansion that has trapped them?? ",
+        "speaker": "Pink",
+        "character": "assets/characters/pink_judging.png",
+        "text": "Moids are the downfall of humanity. I hate people. Ugh, yuck. People. I wanna go home.",
         "next": [99]
     },
     {
         "id": 99,
         "background": "assets/backgrounds/student_union.jpg",
-        "speaker": "",
-        "text": "Oooh uhh im uhh Y/N. I like leveling solo. I mean solo leveling, the reincarnated in another world trend, and I play a lot of anime gacha games.",
+        "character": "assets/characters/freddie_normal.png",
+        "speaker": "Freddie",
+        "text": "Hey come join us. We are anime and manga club!",
         "next": [100]
     },
     {
         "id": 100,
         "background": "assets/backgrounds/student_union.jpg",
-        "speaker": "Citrine",
-        "text": "Are you another genshin enjoyer?",
+        "speaker": "",
+        "text": "I sense overwhelming power from this club as I stood there trembling at the hidden aura stored within them similar to the students in the ACRC.",
         "next": [101]
     },
     {
         "id": 101,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/citrine_talking.png",
-        "speaker": "",
-        "text": "!!!",
+        "character": "assets/characters/mish_normal.png",
+        "speaker": "Michelle",
+        "text": "Hi new person. Welcome. please introduce yourself and your favorite animes",
         "next": [102]
     },
     {
         "id": 102,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/citrine_normal.png",
         "speaker": "",
-        "text": "What tremendous ki. How was I not able to detect this? Standing before me… holding a cute bright blue plushie as if she was there the entire time. Who can this possibly be—.",
+        "text": "I find myself unable to leave. Have I been trapped by their domain expansion or is it my domain expansion that has trapped them?? ",
         "next": [103]
     },
     {
         "id": 103,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/mish_normal.png",
-        "speaker": "Michelle",
-        "text": "Citriiiiinnnne",
+        "speaker": "",
+        "text": "Oooh uhh im uhh Y/N. I like leveling solo. I mean solo leveling, the reincarnated in another world trend, and I play a lot of anime gacha games.",
         "next": [104]
     },
     {
         "id": 104,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/citrine_talking.png",
         "speaker": "Citrine",
-        "text": "Helloooo",
+        "text": "Are you another genshin enjoyer?",
         "next": [105]
     },
     {
         "id": 105,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/pink_judging.png",
-        "speaker": "Pink",
-        "text": "Fucking weebs. I think I'm gonna throw up. Fuck this shit.",
+        "character": "assets/characters/citrine_talking.png",
+        "speaker": "",
+        "text": "!!!",
         "next": [106]
     },
     {
         "id": 106,
         "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/citrine_normal.png",
         "speaker": "",
-        "text": "Omg the language thats only recognized by the greatest of gods.. This is stronger than one punch man in his prime. Do I even belong at this level?",
+        "text": "What tremendous ki. How was I not able to detect this? Standing before me… holding a cute bright blue plushie as if she was there the entire time. Who can this possibly be—.",
         "next": [107]
     },
     {
         "id": 107,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/freddie_normal.png",
-        "speaker": "Freddie",
-        "text": "Hey come check out our game. It's a Visual Novel we made in collab with CS Club!",
+        "character": "assets/characters/mish_normal.png",
+        "speaker": "Michelle",
+        "text": "Citriiiiinnnne",
         "next": [108]
     },
     {
         "id": 108,
         "background": "assets/backgrounds/student_union.jpg",
-        "character":"assets/characters/pink_judging.png",
-        "speaker": "Pink",
-        "text": "This is diabolical",
+        "character": "assets/characters/citrine_talking.png",
+        "speaker": "Citrine",
+        "text": "Helloooo",
         "next": [109]
     },
     {
         "id": 109,
-        "background": "assets/backgrounds/game.jpg",
-        "speaker": "",
-        "text": "I click to start the game…. This feels awfully familiar.. The ACRC.. The printer...Uggh im getting dizzy ",
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/pink_judging.png",
+        "speaker": "Pink",
+        "text": "Fucking weebs. I think I'm gonna throw up. Fuck this shit.",
         "next": [110]
     },
     {
         "id": 110,
-        "background": "assets/backgrounds/game2.jpg",
+        "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
-        "text": "Maybe I'm just seeing things.... They are deep in some hear me out cake discussion… Nows my chance to secretly walk away.",
+        "text": "Omg the language thats only recognized by the greatest of gods.. This is stronger than one punch man in his prime. Do I even belong at this level?",
         "next": [111]
     },
     {
         "id": 111,
         "background": "assets/backgrounds/student_union.jpg",
-        "speaker": "",
-        "text": "After meeting that interesting bunch of characters. I should probably check out the other tables and resource centers.",
+        "character": "assets/characters/freddie_normal.png",
+        "speaker": "Freddie",
+        "text": "Hey come check out our game. It's a Visual Novel we made in collab with CS Club!",
         "next": [112]
     },
     {
         "id": 112,
         "background": "assets/backgrounds/student_union.jpg",
+        "character":"assets/characters/pink_judging.png",
+        "speaker": "Pink",
+        "text": "This is diabolical",
+        "next": [113]
+    },
+    {
+        "id": 113,
+        "background": "assets/backgrounds/game.jpg",
+        "speaker": "",
+        "text": "I click to start the game…. This feels awfully familiar.. The ACRC.. The printer...Uggh im getting dizzy ",
+        "next": [114]
+    },
+    {
+        "id": 114,
+        "background": "assets/backgrounds/game2.jpg",
+        "speaker": "",
+        "text": "Maybe I'm just seeing things.... They are deep in some hear me out cake discussion… Nows my chance to secretly walk away---",
+        "next": [115]
+    },
+    {
+        "id": 115,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "",
+        "speaker": "",
+        "text": "....",
+        "next": [116]
+    },
+    {
+        "id": 116,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_talking.png",
+        "speaker": "Vena",
+        "text": "Welcome ! Welcome! Are you mayhaps interested in Computer Science-ing?”",
+        "next": [117]
+    },
+
+    {
+        "id": 117,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_talking.png",
+        "speaker": "",
+        "text": "Vena introduces herself and somehow the eternal yapping defied all laws of time.....",
+        "next": [118]
+    },
+    {
+        "id": 118,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/vena_talking.png",
+        "speaker": "",
+        "text": "....----And also our club advisor is the one and only Jonathon Potter! :) He's the department chair and teaches Assemly in CS 270! He is --...",
+        "next": [119]
+    },
+    {
+        "id": 119,
+        "background": "assets/backgrounds/student_union.jpg",
+        "speaker": "",
+        "text": "Omg Vena wont stop talking.. I have no idea who Potter is. Maybe I should figure out who this is since I am interested in CS.",
+        "next": [120]
+    },
+    {
+        "id": 120,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "",
+        "speaker": "",
+        "text": "I take out my phone to look him up....",
+        "next": [121]
+    },
+    {
+        "id": 121,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/jonathan.jpg",
+        "speaker": "",
+        "text": "From the distance I hear a loud welcoming voice. As a picture of Prof Potter loads in.",
+        "next": [122]
+    },
+    {
+        "id": 122,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/jonathan.jpg",
+        "speaker": "Moof",
+        "text": "Chat, I love assembly. You should totally take assembly with us.",
+        "next": [123]
+    },
+    {
+        "id": 123,
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/jonathan.jpg",
+        "speaker": "",
+        "text": "Oooh thats Jonathan Potter?? I try to remember where I recognize him, but it feels like its locked into the eternal abyss. Not even batman can beat the memory out of me.",
+        "next": [124]
+    },
+    {
+        "id": 124,
+        "background": "",
+        "character": "",
+        "speaker": "",
+        "text": "Some time goes by..",
+        "next": [125]
+    },
+    {
+        "id": 125,
+        "background": "assets/backgrounds/student_union.jpg",
+        "speaker": "",
+        "text": "After meeting that interesting bunch of characters. I should probably check out the other tables and resource centers.",
+        "next": [126]
+    },
+    {
+        "id": 126,
+        "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
         "text": "Phew~~ I felt like I just encountered the Ginyu force at their full power. I hope I still got some senzu beans.",
-        "next": [113]
+        "next": []
     }
 ]
