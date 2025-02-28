@@ -1124,36 +1124,43 @@
     {
         "id": 122,
         "background": "assets/backgrounds/student_union.jpg",
-        "character": "assets/characters/jonathan.jpg",
         "speaker": "Moof",
-        "text": "Chat, I love assembly. You should totally take assembly with us.",
+        "text": "Meowmeowmeowmeowmeow meowmeowmeowmeow meowmeowmeowmeowmeowmeowmeowmeow meowmeowmeowmeow",
         "next": [123]
     },
     {
         "id": 123,
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/jonathan.jpg",
-        "speaker": "",
-        "text": "Oooh thats Jonathan Potter?? I try to remember where I recognize him, but it feels like its locked into the eternal abyss. Not even batman can beat the memory out of me.",
+        "speaker": "Moof",
+        "text": "Chat, I love assembly. You should totally take assembly with us.",
         "next": [124]
     },
     {
         "id": 124,
-        "background": "",
-        "character": "",
+        "background": "assets/backgrounds/student_union.jpg",
+        "character": "assets/characters/jonathan.jpg",
         "speaker": "",
-        "text": "Some time goes by..",
+        "text": "Oooh thats Jonathan Potter?? I try to remember where I recognize him, but it feels like its locked into the eternal abyss. Not even batman can beat the memory out of me.",
         "next": [125]
     },
     {
         "id": 125,
-        "background": "assets/backgrounds/student_union.jpg",
+        "background": "",
+        "character": "",
         "speaker": "",
-        "text": "After meeting that interesting bunch of characters. I should probably check out the other tables and resource centers.",
+        "text": "Some time goes by..",
         "next": [126]
     },
     {
         "id": 126,
+        "background": "assets/backgrounds/student_union.jpg",
+        "speaker": "",
+        "text": "After meeting that interesting bunch of characters. I should probably check out the other tables and resource centers.",
+        "next": [127]
+    },
+    {
+        "id": 127,
         "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
         "text": "Phew~~ I felt like I just encountered the Ginyu force at their full power. I hope I still got some senzu beans.",
