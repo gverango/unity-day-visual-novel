@@ -23,6 +23,15 @@ class GameModel {
         }
     }
 
+    getPlayerName(){
+        return localStorage.getItem('playerName') || '';
+    }
+    setPlayerName(name) {
+            localStorage.setItem('playerName', name);
+    }
+
+
+
     setState(newState) {
         this.state = newState;
         console.log(`Game state changed to: ${this.state}`);

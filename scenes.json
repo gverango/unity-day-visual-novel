@@ -2,6 +2,7 @@
     {
         "id": 1,
         "background": "assets/backgrounds/grass.jpg",
+        "character": "",
         "speaker": "",
         "text": "Spring arrives at CCSF with a warmth I haven't felt in a long time. ",
         "next": [
@@ -11,6 +12,7 @@
     {
         "id": 2,
         "background": "assets/backgrounds/grass.jpg",
+        "character": "",
         "speaker": "",
         "text": "The air carries something weightless, clinging to the skin, like the traces of a forgotten dream. The kind of day that reminds the heart it was made for longing, whether real or imagined, love finds its way. ",
         "next": [
@@ -20,6 +22,7 @@
     {
         "id": 3,
         "background": "assets/backgrounds/batmale_hall.jpg",
+        "character":"",
         "speaker": "",
         "text": "Batmale Hall stands ahead, its doors as unassuming as ever. I'm visiting the ACRC today, for the free printing available to students, nothing particularly more.",
         "next": [
@@ -790,9 +793,10 @@
     },
     {
         "id": 82,
-        "background": "",
+        "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
-        "text": "[Enter your name]”",
+        "text": "You write down '{{playerName}}' on the sign in sheet.",
+        "requiresName": true,
         "next": [
             83
         ]
@@ -812,7 +816,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/vena_talking.png",
         "speaker": "Vena",
-        "text": "reversed(name)?",
+        "text": "{{reversedPlayerName}}, is that correct?",
         "next": [
             85
         ]
@@ -821,8 +825,8 @@
         "id": 85,
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/vena_normal.png",
-        "speaker": "”",
-        "text": "No, No- {name}",
+        "speaker": "",
+        "text": "No, No- {{playerName}}",
         "next": [
             86
         ]
@@ -832,7 +836,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/vena_talking.png",
         "speaker": "Vena",
-        "text": "Ohhh {name} !Thank you so much for stopping by, pleeease join our Discord where more fun shit happens.",
+        "text": "Ohhh {{playerName}} !Thank you so much for stopping by, pleeease join our Discord where more fun shit happens.",
         "next": [87]
     },
     {
@@ -978,7 +982,8 @@
         "id": 103,
         "background": "assets/backgrounds/student_union.jpg",
         "speaker": "",
-        "text": "Oooh uhh im uhh Y/N. I like leveling solo. I mean solo leveling, the reincarnated in another world trend, and I play a lot of anime gacha games.",
+        "text": "Oooh uhh im uhh {{playerName}}. I like leveling solo. I mean solo leveling, the reincarnated in another world trend, and I play a lot of anime gacha games.",
+        "requiresName":true,
         "next": [104]
     },
     {

@@ -244,3 +244,20 @@ body, html {
 .tab-content button:hover {
     color: #909090
 }
+
+
+#name-input-scene {
+    color: white;
+    background-color: #151515;
+    z-index: 9999;
+    position: absolute;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#save-name {
+    padding: 2px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}

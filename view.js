@@ -73,6 +73,14 @@ class GameView {
         const textContainer = document.querySelector('.text-container');
         const container = document.querySelector('.container');
 
+// Handle name input scene (customize ID as needed)
+if (scene.requiresName && !GameModel.getPlayerName()) {
+    textContainer.style.display = 'none';
+    document.getElementById('name-input-scene').style.display = 'block';
+    return;
+} else {
+    document.getElementById('name-input-scene').style.display = 'none';
+}
 
 
 
@@ -186,7 +194,14 @@ if (scene.speaker !== "") {
                 textContainer.style.transition = 'opacity 0.5s ease';
                 textContainer.style.opacity = '1';
                 let index = 0;
-                const text = scene.text;
+                let text = scene.text;
+
+                // Replaces {{playerName}} with stored name
+                const playerName = GameModel.getPlayerName();
+                if (playerName) {
+                text = text.replace(/{{playerName}}/g, playerName);
+}
+
                 this.typeInterval = setInterval(() => {
                     if (index < text.length) {
                         textElement.textContent += text.charAt(index);

@@ -75,6 +75,18 @@ document.addEventListener('DOMContentLoaded', async () => {
             transitioning = false;
         }, 700); 
     });
+
+//Storing player name
+document.getElementById('save-name').addEventListener('click', () => {
+    const input = document.getElementById('player-name').value.trim();
+    if (input) {
+        GameModel.setPlayerName(input);
+        document.getElementById('name-input-scene').style.display = 'none';
+        GameView.renderScene(); // Resume story with name inserted
+    }
+});
+
+
     //Keyboard interface to progees scenes
     document.addEventListener('keydown', (event) => {
         const currentScene = GameModel.getCurrentScene();
