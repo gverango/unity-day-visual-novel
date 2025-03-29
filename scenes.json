@@ -816,7 +816,7 @@
         "background": "assets/backgrounds/student_union.jpg",
         "character": "assets/characters/vena_talking.png",
         "speaker": "Vena",
-        "text": "{{reversedPlayerName}}, is that correct?",
+        "text": "'{{reversedPlayerName}}', is that correct?",
         "next": [
             85
         ]

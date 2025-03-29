@@ -200,7 +200,11 @@ if (scene.speaker !== "") {
                 const playerName = GameModel.getPlayerName();
                 if (playerName) {
                 text = text.replace(/{{playerName}}/g, playerName);
-}
+                }
+                const reversedPlayerName =GameModel.getReversedPlayerName();
+                if (reversedPlayerName) {
+                    text = text.replace(/{{reversedPlayerName}}/g, reversedPlayerName);
+                }
 
                 this.typeInterval = setInterval(() => {
                     if (index < text.length) {

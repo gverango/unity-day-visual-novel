@@ -30,6 +30,15 @@ class GameModel {
             localStorage.setItem('playerName', name);
     }
 
+    getReversedPlayerName() {
+        const name = this.getPlayerName();
+        if (!name) return '';
+        
+        const reversed = name.split('').reverse().join('');
+        return reversed.charAt(0).toUpperCase() + reversed.slice(1).toLowerCase();
+    }
+    
+    
 
 
     setState(newState) {
