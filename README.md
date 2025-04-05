@@ -3,13 +3,17 @@ Visual Novel game in JavaScript
 Chapter 1, 2 Finished :)
 
 #  Contributors
-Project Lead - Gev Verango
-Lead Developer - Jacky Choi
-Developer - Citrine
+**Project Lead** - Gev Verango
 
-Sprite Art - Thien Anh (Brianna)
-Sprite Art - Beonica Lee
-Title Art - Freddie Gutierrez 
+**Lead Developer** - Jacky Choi
+
+**Developer** - Citrine
+
+**Sprite Art** - Thien Anh (Brianna)
+
+**Sprite Art** - Beonica Lee
+
+**Title Art** - Freddie Gutierrez 
 
 # How-To
 
