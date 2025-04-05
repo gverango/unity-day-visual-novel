@@ -1,11 +1,15 @@
 # [gverango.github.io/unity-day-visual-novel](https://gverango.github.io/unity-day-visual-novel/)
 Visual Novel game in JavaScript
+Chapter 1, 2 Finished :)
 
+#  Contributors
+Project Lead - Gev Verango
+Lead Developer - Jacky Choi
+Developer - Citrine
 
-Contributors (add your name here)
-
-Gev, Jacky, Citrine
-
+Sprite Art - Thien Anh (Brianna)
+Sprite Art - Beonica Lee
+Title Art - Freddie Gutierrez 
 
 # How-To
 
